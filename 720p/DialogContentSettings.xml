@@ -39,7 +39,6 @@
 					<control type="spincontrolex" id="3">
 						<!--important-->
 						<posy>0</posy>
-						<!---->
 						<width>613</width>
 						<label>-</label>
 						<font>-</font>
@@ -70,7 +69,7 @@
 					</control>
 				</control>
 			</control>
-			<!---scrapers--->
+			<!-- scrapers -->
 			<control type="group" id="9004">
 				<posy>95</posy>
 				<visible>!SubString(Control.GetLabel(3),$LOCALIZE[231])</visible>
@@ -134,7 +133,7 @@
 					</focusedlayout>
 				</control>
 			</control>
-			<!---options--->
+			<!-- options -->
 			<control type="group" id="9005">
 				<posy>230</posy>
 				<animation effect="slide" start="0,0" end="0,-135"  time="0" condition="SubString(Control.GetLabel(3),$LOCALIZE[231])">Conditional</animation>
@@ -172,7 +171,7 @@
 				<include>dialog_Radio</include>
 			</control>
 		</control>
-		<!---dialog buttons--->
+		<!-- dialog buttons -->
 		<control type="group" id="9001">
 			<posx>34</posx>
 			<posy>567</posy>

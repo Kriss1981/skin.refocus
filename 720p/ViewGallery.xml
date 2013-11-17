@@ -1,7 +1,7 @@
-﻿﻿<includes>
-<!---STRIP LAYOUT------>	
+﻿<includes>
+<!-- STRIP LAYOUT -->	
 	<include name="view_Gallery">
-		<!---strip top------>
+		<!-- strip top -->
 		<control type="group">
 			<include>transition_Container</include>
 			<include>toggle_Menu</include>
@@ -25,7 +25,7 @@
 					</control>
 				</control>
 			</control>
-			<!---frame--->																	
+			<!-- frame -->																	
 			<control type="image">
 				<posy>106</posy>
 				<width>screen_Width</width>
@@ -34,7 +34,7 @@
 				<texture border="29">frames/frame_Gallery.png</texture>
 			</control>
 		</control>
-		<!--container--->
+		<!--container -->
 		<control type="wraplist" id="53">
 			<viewtype label="Gallery">wrap</viewtype>
 			<posx>-485</posx>
@@ -57,7 +57,7 @@
 			<visible>[Container.Content(movies) | Container.Content(tvshows) | Window.IsActive(pictures)] + ![SubString(Container.Folderpath,plugin://) | IsEmpty(Container.Folderpath)]</visible>
 		</control>
 	</include>
-	<!---container contents--->
+	<!-- container contents -->
 	<include name="GalleryVideo">
 		<itemlayout height="800" width="749">
 			<control type="image">
@@ -149,7 +149,7 @@
 		</focusedlayout>
 	</include>
 
-<!---FULLSCREEN LAYOUT------>
+<!-- FULLSCREEN LAYOUT -->
 	<include name="view_GalleryFull">																																																																
 		<control type="wraplist" id="531">
 			<viewtype label="Gallery">bigwrap</viewtype>
@@ -168,7 +168,7 @@
 			<include condition="Window.IsVisible(pictures)">GalleryFullPictures</include>		
 			<visible>[Container.Content(movies) | Container.Content(tvshows) | Window.IsActive(pictures)] + ![SubString(Container.Folderpath,plugin://) | IsEmpty(Container.Folderpath)]</visible>
 		</control>
-		<!---window menu shade-->
+		<!-- window menu shade-->
 		<control type="image">
 			<include>screen_Dimensions</include>
 			<aspectratio align="left">stretch</aspectratio>
@@ -176,7 +176,7 @@
 			<include>fadeinout</include>
 			<visible>Control.IsVisible(531) + ControlGroup(6000).HasFocus()</visible>
 		</control>
-		<!---scroll indicators------->
+		<!-- scroll indicators- -->
 		<control type="group">
 			<posy>336</posy>
 			<include>fadeinout</include>
@@ -197,7 +197,7 @@
 			</control>
 		</control>
 	</include>
-	<!---container contents--->
+	<!-- container contents -->
 	<include name="GalleryFullVideo">
 		<itemlayout height="screen_Height" width="screen_Width">
 			<control type="image">

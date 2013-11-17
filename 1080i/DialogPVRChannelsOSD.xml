@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="609">
+	<defaultcontrol always="true">11</defaultcontrol>
+	<include>dialogOpen</include>
+	<coordinates>
+		<system>1</system>
+		<posx>435</posx>
+		<posy>405</posy>
+	</coordinates>
+	<controls>
+		<control type="group">
+			<control type="image">
+				<width>1050</width>
+				<height>615</height>
+				<include>dialogWindow</include>
+			</control>
+			<control type="label" id="1">
+				<width>993</width>
+				<scroll>true</scroll>
+				<label>$INFO[VideoPlayer.ChannelGroup]</label>
+				<include>dialog_Windowtitle</include>
+				<visible>PVR.IsPlayingTV</visible>
+			</control>
+			<control type="image">
+				<posx>28</posx>
+				<posy>112</posy>
+				<width>993</width>
+				<include>dialog_Separator</include>
+			</control>
+			<control type="image">
+				<posx>138</posx>
+				<posy>114</posy>
+				<height>442</height>
+				<include>dialog_Separator-y</include>
+			</control>
+			<control type="list" id="11">
+				<posx>28</posx>
+				<posy>112</posy>
+				<width>994</width>
+				<height>444</height>
+				<onup>11</onup>
+				<ondown>11</ondown>
+				<scrolltime tween="Cubic" easing="Out">400</scrolltime>
+				<itemlayout width="994" height="111">
+					<control type="image">
+						<width>994</width>
+						<height>111</height>
+						<texture border="4">dialogs/list-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<posx>1</posx>
+						<posy>1</posy>
+						<width>108</width>
+						<height>108</height>
+						<aspectratio>stretch</aspectratio>
+						<texture fallback="pvr/defaultTV.png">$INFO[ListItem.Thumb]</texture>
+					</control>
+					<control type="group">
+						<posx>112</posx>
+						<posy>6</posy>
+						<control type="label">
+							<height>60</height>
+							<width>780</width>
+							<label>[B]$INFO[ListItem.Title][/B]</label>
+							<font>normalAlt</font>
+							<include>dialog_CommonListItem</include>
+						</control>
+						<control type="label">
+							<posy>38</posy>
+							<width>780</width>
+							<height>60</height>
+							<align>left</align>
+							<font>normalAlt</font>
+							<label>[UPPERCASE]$LOCALIZE[209][/UPPERCASE]$INFO[ListItem.NextTitle,: ]</label>
+							<include>dialog_CommonListItem</include>
+						</control>
+					</control>
+					<control type="image">
+						<posx>938</posx>
+						<posy>39</posy>
+						<texture>$VAR[PVR_Status.Condition]</texture>
+						<include>dialog_PVRstatus</include>
+					</control>
+				</itemlayout>
+				<focusedlayout width="994" height="111">
+					<control type="image">
+						<width>994</width>
+						<height>111</height>
+						<texture border="4">dialogs/list-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<width>994</width>
+						<height>111</height>
+						<texture>dialogs/list-focus.png</texture>
+					</control>
+					<control type="image">
+						<posx>1</posx>
+						<posy>1</posy>
+						<width>108</width>
+						<height>108</height>
+						<aspectratio>stretch</aspectratio>
+						<texture fallback="pvr/defaultTV.png">$INFO[ListItem.Thumb]</texture>
+					</control>
+					<control type="group">
+						<posx>112</posx>
+						<posy>6</posy>
+						<control type="label">
+							<height>60</height>
+							<width>780</width>
+							<label>[B]$INFO[ListItem.Title][/B]</label>
+							<font>normalAlt</font>
+							<include>dialog_CommonListItemFocus</include>
+						</control>
+						<control type="label">
+							<posy>38</posy>
+							<width>780</width>
+							<height>60</height>
+							<align>left</align>
+							<font>normalAlt</font>
+							<label>[UPPERCASE]$LOCALIZE[209][/UPPERCASE]$INFO[ListItem.NextTitle,: ]</label>
+							<include>dialog_CommonListItemFocus</include>
+						</control>
+					</control>
+					<control type="image">
+						<posx>938</posx>
+						<posy>39</posy>
+						<texture>$VAR[PVR_Status.Condition]</texture>
+						<colordiffuse>Color1</colordiffuse>
+						<include>dialog_PVRstatus</include>
+					</control>
+				</focusedlayout>
+			</control>
+		</control>
+	</controls>
+</window>

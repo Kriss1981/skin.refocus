@@ -72,7 +72,7 @@
 			<include>transition_Container</include>
 			<include>nextaired_MenuToggle</include>
 
-<!---DAY LABELS------>
+<!-- DAY LABELS -->
 			<control type="group">
 				<posx>80</posx>
 				<posy>90</posy>
@@ -152,7 +152,7 @@
 					<colordiffuse>column3</colordiffuse>
 				</control>
 			
-			<!---MONDAY LIST------>
+			<!-- MONDAY LIST -->
 				<control type="group">
 					<posy>25</posy>
 					<control type="image">
@@ -231,7 +231,7 @@
 						</focusedlayout>
 					</control>
 				</control>
-			<!---TUESDAY LIST------>
+			<!-- TUESDAY LIST -->
 				<control type="group">
 					<posx>160</posx>
 					<posy>25</posy>
@@ -303,7 +303,7 @@
 						</focusedlayout>
 					</control>
 				</control>
-			<!---WEDNESDAY LIST------>
+			<!-- WEDNESDAY LIST -->
 				<control type="group">
 					<posx>320</posx>
 					<posy>25</posy>
@@ -375,7 +375,7 @@
 						</focusedlayout>
 					</control>
 				</control>
-			<!---THURSDAY LIST------>
+			<!-- THURSDAY LIST -->
 				<control type="group">
 					<posx>480</posx>
 					<posy>25</posy>
@@ -447,7 +447,7 @@
 						</focusedlayout>
 					</control>
 				</control>
-			<!---FRIDAY LIST------>
+			<!-- FRIDAY LIST -->
 				<control type="group">
 					<posx>640</posx>
 					<posy>25</posy>
@@ -527,7 +527,7 @@
 						</focusedlayout>
 					</control>
 				</control>
-			<!---SATURDAY LIST------>
+			<!-- SATURDAY LIST -->
 				<control type="group">
 					<posx>800</posx>
 					<posy>25</posy>
@@ -607,7 +607,7 @@
 						</focusedlayout>
 					</control>
 				</control>
-			<!---SUNDAY LIST------>
+			<!-- SUNDAY LIST -->
 				<control type="group">
 					<posx>960</posx>
 					<posy>25</posy>
@@ -682,7 +682,7 @@
 			</control>
 		</control>
 
-<!---ADDITIONAL SHOW INFO----->
+<!-- ADDITIONAL SHOW INFO -->
 		<control type="group">
 			<posx>80</posx>
 			<posy>580</posy>

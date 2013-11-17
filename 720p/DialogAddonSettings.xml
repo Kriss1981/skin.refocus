@@ -17,7 +17,7 @@
 				<width>732</width>
 				<include>dialog_Windowtitle</include>
 			</control>
-			<!---control--->
+			<!-- control -->
 			<control type="group">
 				<posx>19</posx>
 				<posy>75</posy>
@@ -61,7 +61,7 @@
 					<scrolltime tween="Cubic" easing="Out">200</scrolltime>
 				</control>
 			</control>
-			<!---defaults--->
+			<!-- defaults -->
 			<control type="button" id="13">
 				<width>238</width>
 				<textoffsetx>16</textoffsetx>
@@ -88,7 +88,7 @@
 			<control type="label" id="7">
 				<include>dialog_Label-bold</include>
 			</control>
-			<!---dialog buttons--->
+			<!-- dialog buttons -->
 			<control type="group" id="9001">
 				<posx>34</posx>
 				<posy>495</posy>

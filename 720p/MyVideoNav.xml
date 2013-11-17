@@ -18,7 +18,7 @@
 		<include condition="Skin.HasSetting(banners.enable)">view_Banner</include>
 		<include condition="Skin.HasSetting(banners.enable)">view_BannerWide</include>
 		
-	<!---TRIGGER------>	
+	<!-- TRIGGER -->	
 		<control type="button" id="8000">
 			<label>SHOULD NOT SEE ME</label>
 			<onup>53</onup>
@@ -29,14 +29,14 @@
 			<visible allowhiddenfocus="true">false</visible>
 		</control>
 			
-	<!---LIST------>
+	<!-- LIST -->
 		<include>view_List</include>
 		<control type="group">
 			<include>toggle_Menu</include>
 			<include>infoDialogHide</include>
 			<include>transition_Container</include>
 			<visible>Control.IsVisible(50)</visible>
-		<!---landscape--->
+		<!-- landscape -->
 			<control type="group">
 				<visible>!SubString(Container.Folderpath,plugin://)</visible>
 				<control type="group">
@@ -89,7 +89,7 @@
 					</control>
 				</control>
 			</control>
-			<!---portrait--->
+			<!-- portrait -->
 			<control type="group">
 				<posx>750</posx>
 				<posy>65</posy>
@@ -115,7 +115,7 @@
 					</control>
 				</control>
 			</control>
-			<!---files--->
+			<!-- files -->
 			<control type="group">
 				<visible>Container.Content(files)</visible>
 				<control type="group">
@@ -150,24 +150,24 @@
 		<include>info_MusicList</include>
 		<include>info_AddonList</include>
 
-<!---BIG LIST------>
+<!-- BIG LIST -->
 		<include>view_BigList</include>
 
-<!---SLIDE------>
+<!-- SLIDE -->
 		<include>view_SlidePoster</include>
 		<include>view_SlideLandscape</include>
 		<include>info_Slide</include>
 		<include>info_SlideAddons</include>
 
-<!---THUMBNAILS------>
+<!-- THUMBNAILS -->
 		<control type="group">
 			<include>transition_Container</include>
 			<include>infoDialogHide</include>
 			<include>toggle_Menu</include>
-			<!---large grid--->
+			<!-- large grid -->
 			<control type="group">
 				<visible>Control.IsVisible(57) | Control.IsVisible(573)</visible>
-				<!---flags--->
+				<!-- flags -->
 				<control type="image">
 					<posx>235r</posx>
 					<posy>632</posy>
@@ -210,7 +210,7 @@
 					</control>
 				</control>
 			</control>
-			<!---small grid--->
+			<!-- small grid -->
 			<control type="grouplist" id="1000">
 				<posx>780</posx>
 				<posy>115</posy>
@@ -279,13 +279,13 @@
 		<include>view_IconPoster</include>
 		<include>view_IconPosterSmall</include>
 
-<!--GALLERY------>
+<!--GALLERY -->
 		<control type="group">
 			<visible>Control.IsVisible(53)</visible>
 			<include>infoDialogHide</include>
 			<include>toggle_Menu</include>
 			<include>transition_Info</include>
-			<!---flags--->
+			<!-- flags -->
 			<control type="image">
 				<posx>105</posx>
 				<posy>590</posy>
@@ -294,7 +294,7 @@
 				<aspectratio align="right">keep</aspectratio>
 				<texture>$VAR[flag_Studio]</texture>
 			</control>
-			<!---strip bottom--->
+			<!-- strip bottom -->
 			<control type="group">
 				<posx>265</posx>
 				<posy>585</posy>
@@ -338,7 +338,7 @@
 			</control>
 		</control>
 		<include>view_Gallery</include>
-		<!---fullscreen/expanded--->
+		<!-- fullscreen/expanded -->
 		<control type="group">
 			<posy>475</posy>
 			<include>transition_Container</include>
@@ -419,7 +419,7 @@
 				</control>
 			</control>
 		</control>
-<!---WINDOWMENU------>
+<!-- WINDOWMENU -->
 		<include>menu_Video</include>
 	</controls>
 </window>

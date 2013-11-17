@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<includes>
+	<include name="homeMenusLayout">
+		<itemlayout width="960" height="78">
+			<control type="label">
+				<posx>30</posx>
+				<posy>105</posy>
+				<width>960</width>
+				<height>75</height>
+				<font>light.Home</font>
+				<align>left</align>
+				<label>$INFO[ListItem.Label]</label>
+				<textcolor>Color0</textcolor>
+			</control>
+		</itemlayout>
+		<focusedlayout width="960" height="78">
+			<control type="image">
+				<posy>0</posy>
+				<width>562</width>
+				<height>300</height>
+				<aspectratio align="left">stretch</aspectratio>
+				<texture border="1">home/menuSelect.png</texture>
+				<include>home_ListScroll</include>
+				<animation effect="fade" start="100" end="50" time="350" condition="System.IdleTime(5)">Conditional</animation>
+				<visible>!Control.HasFocus(888)</visible>
+			</control>
+			<!--
+			<control type="image">
+				<posy>0</posy>
+				<width>950</width>
+				<height>200</height>
+				<aspectratio align="left">stretch</aspectratio>
+				<texture border="80,0,0,0">home/menuSelect.png</texture>
+				<include>home_ListScroll</include>
+				<visible allowhiddenfocus="true">[Container(9000).HasFocus(21) | Container(9000).HasFocus(22)]</visible>	
+			</control>
+			-->
+			<control type="label">
+				<posy>105</posy>
+				<posx>30</posx>
+				<width>960</width>
+				<height>75</height>
+				<font>light.Home</font>
+				<align>left</align>
+				<textcolor>Color5</textcolor>
+				<label>$INFO[ListItem.Label]</label>
+				<!--<visible>![Container(9000).HasFocus(21) | Container(9000).HasFocus(22)]</visible>-->
+			</control>
+			<control type="label">
+				<posy>105</posy>
+				<posx>30</posx>
+				<width>960</width>
+				<height>75</height>
+				<font>light.Home</font>
+				<align>left</align>
+				<textcolor>Color1</textcolor>
+				<label>$INFO[ListItem.Label]</label>
+				<visible>Control.HasFocus(888)</visible>
+			</control>
+			<control type="label">
+				<posy>108</posy>
+				<posx>30</posx>
+				<width>960</width>
+				<height>75</height>
+				<font>light.Home</font>
+				<align>left</align>
+				<textcolor>Color5</textcolor>
+				<label>[LOWERCASE]$INFO[ListItem.Label2][/LOWERCASE]</label>
+				<!--<visible>Container(9000).HasFocus(21) | Container(9000).HasFocus(22)</visible>-->
+			</control>
+		</focusedlayout>
+	</include>
+	<include name="home_statuslabel">
+		<posy>12</posy>
+		<width>screen_Width</width>
+		<font>regular.SmallCaps</font>
+		<align>center</align>
+		<pauseatend>6000</pauseatend>
+		<scroll>false</scroll>
+		<scrollout>false</scrollout>
+		<aligny>center</aligny>
+		<textcolor>Color2</textcolor>
+		<include>fadeinout</include>
+	</include>
+	<include name="home_Slideshow">
+		<include>screen_Dimensions</include>
+		<aspectratio>scale</aspectratio>
+		<randomize>true</randomize>
+		<loop>yes</loop>
+		<timeperimage>slideshow_Timer</timeperimage>
+		<fadetime>fadetime_Slideshow</fadetime>
+		<animation type="WindowOpen" condition="!Window.Previous(startup)">
+			<effect type="zoom" time="transition_Open" center="auto" start="130" end="100" tween="cubic" easing="out" />
+			<effect type="fade" time="transition_Open" start="0" tween="cubic" easing="out" end="100" />
+		</animation>
+		<animation type="WindowClose">
+			<effect type="zoom" time="transition_Close" center="auto" start="100" end="130" tween="cubic" easing="in" />
+			<effect type="fade" time="transition_Close" start="100" tween="cubic" easing="in" end="0" />
+		</animation>
+		<animation type="WindowOpen" condition="Window.Previous(startup)">
+			<effect type="fade" start="0" end="100" time="600" delay="0" />
+		</animation>
+	</include>
+</includes>

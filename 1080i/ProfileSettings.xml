@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="130">
+	<defaultcontrol>1</defaultcontrol>
+	<include>dialogOpen</include>
+	<coordinates>
+		<system>1</system>
+		<posx>510</posx>
+		<posy>112</posy>
+	</coordinates>
+	<controls>
+		<control type="image">
+			<width>900</width>
+			<height>633</height>
+			<include>dialogWindow</include>
+		</control>
+		<control type="label" id="1000">
+			<width>798</width>
+			<include>dialog_Windowtitle</include>
+		</control>
+		<control type="group">
+			<posx>28</posx>
+			<control type="image" id="2">
+				<description>profile image</description>
+				<posy>105</posy>
+				<width>225</width>
+				<height>225</height>
+				<align>left</align>
+				<aspectratio>stretch</aspectratio>
+				<texture>unknown-user.png</texture>
+				<visible>false</visible>
+			</control>
+			<control type="image">
+				<posy>112</posy>
+				<width>844</width>
+				<include>dialog_Separator</include>
+			</control>
+			<control type="grouplist" id="5">
+				<description>control area</description>
+				<posy>112</posy>
+				<width>844</width>
+				<height>360</height>
+				<itemgap>0</itemgap>
+				<pagecontrol>60</pagecontrol>
+				<onup>28</onup>
+				<ondown>28</ondown>
+			</control>
+		</control>
+		<control type="button" id="7">
+			<description>default Button</description>
+			<include>dialog_Button-list</include>
+		</control>
+		<control type="radiobutton" id="8">
+			<description>default radio button</description>
+			<include>dialog_Radio</include>
+		</control>
+		<control type="spincontrolex" id="9">
+			<description>default spin control</description>
+			<include>dialog_Spin</include>
+		</control>
+		<control type="group" id="9001">
+			<posx>51</posx>
+			<posy>518</posy>
+			<!--ok-->
+			<control type="button" id="28">
+				<posx>420</posx>
+				<label>186</label>
+				<onleft>29</onleft>
+				<onright>29</onright>
+				<onup>5</onup>
+				<ondown>5</ondown>
+				<include>dialog_Button</include>
+			</control>
+			<!--cancel-->
+			<control type="button" id="29">
+				<posx>620</posx>
+				<label>222</label>
+				<onleft>28</onleft>
+				<onright>28</onright>
+				<onup>5</onup>
+				<ondown>5</ondown>
+				<include>dialog_Button</include>
+			</control>
+		</control>
+	</controls>
+</window>

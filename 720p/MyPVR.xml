@@ -10,7 +10,7 @@
 			</control>
 		</control>
 
-	<!---GLOBAL------>
+	<!-- GLOBAL -->
 		<include>global_Background</include>
 		<include>global_Clock</include>
 		<include>windowTitle_PVR</include>
@@ -26,7 +26,7 @@
 			<visible>Skin.HasSetting(dev.enable)</visible>
 		</control>
 		
-	<!---VIEWS------>
+	<!-- VIEWS -->
 		<control type="group" id="50">
 			<include>view_EPG-now</include>
 			<include>view_EPG-timeline</include>
@@ -38,7 +38,7 @@
 			<include>view_TV-recordings</include>
 		</control>
 
-	<!---EPG INFO------>
+	<!-- EPG INFO -->
 		<control type="group">
 			<posx>150</posx>
 			<posy>560</posy>

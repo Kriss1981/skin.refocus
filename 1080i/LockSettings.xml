@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="131">
+	<defaultcontrol>5</defaultcontrol>
+	<include>dialogOpen</include>
+	<coordinates>
+		<system>1</system>
+		<posx>510</posx>
+		<posy>180</posy>
+	</coordinates>
+	<controls>
+		<control type="image">
+			<width>900</width>
+			<height>741</height>
+			<include>dialogWindow</include>
+		</control>
+		<control type="label" id="2">
+			<width>798</width>
+			<include>dialog_Windowtitle</include>
+		</control>
+		<control type="group">
+			<posx>28</posx>
+			<posy>112</posy>
+			<control type="image">
+				<width>844</width>
+				<include>dialog_Separator</include>
+			</control>
+			<control type="spincontrol" id="60">
+				<visible>false</visible>
+			</control>
+			<!--control area-->
+			<control type="grouplist" id="5">
+				<width>844</width>
+				<height>480</height>
+				<itemgap>0</itemgap>
+				<pagecontrol>60</pagecontrol>
+				<onleft>28</onleft>
+				<onright>60</onright>
+				<onup>28</onup>
+				<ondown>28</ondown>
+			</control>
+		</control>
+		<!-- defaults -->
+		<control type="button" id="7">
+			<include>dialog_Button-list</include>
+		</control>
+		<control type="radiobutton" id="8">
+			<include>dialog_Radio</include>
+		</control>
+		<control type="spincontrolex" id="9">
+			<include>dialog_Spin</include>
+		</control>
+		<!-- dialog controls -->
+		<control type="group" id="9001">
+			<posx>21</posx>
+			<posy>622</posy>
+			<!--ok-->
+			<control type="button" id="28">
+				<posx>453</posx>
+				<label>$LOCALIZE[186]</label>
+				<onleft>29</onleft>
+				<onright>29</onright>
+				<onup>5</onup>
+				<ondown>5</ondown>
+				<include>dialog_Button</include>
+			</control>
+			<!--cancel-->
+			<control type="button" id="29">
+				<posx>648</posx>
+				<label>$LOCALIZE[222]</label>
+				<onleft>28</onleft>
+				<onright>28</onright>
+				<onup>5</onup>
+				<ondown>5</ondown>
+				<include>dialog_Button</include>
+			</control>
+		</control>
+	</controls>
+</window>

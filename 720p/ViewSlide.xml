@@ -1,12 +1,12 @@
 ﻿<includes>
-<!---INFO------>
+<!-- INFO -->
 	<include name="info_Slide">
 		<control type="group">
 			<include>toggle_Menu</include>
 			<include>transition_Info</include>
 			<include>infoDialogHide</include>
 			<visible>Control.IsVisible(52) | Control.IsVisible(521) | Control.IsVisible(522)</visible>
-			<!---flags--->
+			<!-- flags -->
 			<control type="image">
 				<posx>60</posx>
 				<posy>459</posy>
@@ -16,7 +16,7 @@
 				<texture>$VAR[flag_Studio]</texture>
 			</control>
 			<include>flags_Slide-media</include>
-			<!---info--->	
+			<!-- info -->	
 			<control type="group">
 				<visible>!Container.Content(addons)</visible>
 				<posx>220</posx>
@@ -60,7 +60,7 @@
 		</control>
 	</include>
 	<include name="info_SlideAddons">
-		<!---info--->
+		<!-- info -->
 		<control type="group">
 			<posx>220</posx>
 			<posy>462</posy>
@@ -98,7 +98,7 @@
 		</control>
 	</include>
 
-<!---PORTRAIT------>
+<!-- PORTRAIT -->
 	<include name="view_SlidePoster">
 		<control type="fixedlist" id="52">
 			<viewtype label="Slide">info</viewtype>
@@ -169,7 +169,7 @@
 		</focusedlayout>
 	</include>
 
-<!---LANDSCAPE------>
+<!-- LANDSCAPE -->
 	<include name="view_SlideLandscape">
 		<control type="fixedlist" id="521">
 			<viewtype label="WideSlide">biginfo</viewtype>
@@ -285,7 +285,7 @@
 		</focusedlayout>
 	</include>
 
-<!---SQUARE------>
+<!-- SQUARE -->
 	<include name="view_SlideSquare">
 		<control type="wraplist" id="522">
 			<viewtype label="Slide">info</viewtype>

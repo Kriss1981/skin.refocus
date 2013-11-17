@@ -8,7 +8,7 @@
 			<posy>28</posy>
 			<include>transition_Container</include>
 			<include>toggle_Menu</include>
-			<!---images--->
+			<!-- images -->
 			<control type="image">
 				<width>460</width>
 				<height>460</height>

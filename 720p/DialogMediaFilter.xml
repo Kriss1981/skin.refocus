@@ -33,7 +33,7 @@
 				<ondown>9001</ondown>
 			</control>
 		</control>
-	<!---defaults--->
+	<!-- defaults -->
 		<control type="button" id="7">
 			<width>238</width>
 			<textoffsetx>16</textoffsetx>
@@ -52,7 +52,7 @@
 		<control type="edit" id="12">
 			<include>dialog_Button-list</include>
 		</control>
-	<!---dialog buttons--->
+	<!-- dialog buttons -->
 		<control type="group" id="9001">
 			<posx>367</posx>
 			<posy>417</posy>

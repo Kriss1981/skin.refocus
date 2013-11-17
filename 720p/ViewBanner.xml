@@ -1,5 +1,5 @@
 ﻿<includes>
-<!---DECK------>
+<!-- DECK -->
 	<include name="view_Banner">
 		<control type="fixedlist" id="54">
 			<viewtype label="535">bigwide</viewtype>
@@ -247,7 +247,7 @@
 		</control>
 	</include>
 
-<!---BANNERS------>
+<!-- BANNERS -->
 	<include name="view_BannerWide">
 		<control type="panel" id="541">
 			<viewtype label="537">wide</viewtype> 	
@@ -309,7 +309,7 @@
 				</control>
 			</focusedlayout>
 		</control>
-		<!---container info--->
+		<!-- container info -->
 		<control type="grouplist">
 			<posx>695</posx>
 			<posy>100</posy>

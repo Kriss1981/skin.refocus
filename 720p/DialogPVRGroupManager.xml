@@ -236,7 +236,7 @@
 						</control>
 					</control>
 				</control>
-			<!---dialog controls------>
+			<!-- dialog controls -->
 				<control type="grouplist" id="9003">
 					<posx>114</posx>
 					<posy>493</posy>

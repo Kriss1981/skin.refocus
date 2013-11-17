@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+	<defaultcontrol always="true">120</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<include>dialogOpen</include>
+	<coordinates>
+		<system>1</system>
+		<posx>285</posx>
+		<posy>112</posy>
+	</coordinates>
+	<visible>Player.HasVideo</visible>
+	<controls>
+		<!-- LEFT PANE -->
+		<control type="group">
+			<animation effect="slide" start="0" end="-315" time="250" tween="Cubic" easing="Out" condition="Control.HasFocus(150)">Conditional</animation>
+			<control type="image">
+				<width>1350</width>
+				<height>855</height>
+				<include>dialogWindow</include>
+				<animation effect="fade" start="0" end="100" time="0" delay="250" condition="Control.HasFocus(150)">Conditional</animation>
+			</control>
+			<control type="image">
+				<posx>28</posx>
+				<posy>142</posy>
+				<width>758</width>
+				<include>dialog_Separator</include>
+			</control>
+			<control type="list" id="150">
+				<posx>28</posx>
+				<posy>142</posy>
+				<width>758</width>
+				<height>606</height>
+				<onleft>120</onleft>
+				<onright>120</onright>
+				<onup>150</onup>
+				<ondown>150</ondown>
+				<viewtype label="535">list</viewtype>
+				<scrolltime tween="Cubic" easing="Out">400</scrolltime>
+				<itemlayout width="758" height="60">
+					<control type="image">
+						<width>758</width>
+						<height>60</height>
+						<include>dialog_CommonList</include>
+					</control>
+					<control type="label">
+						<width>750</width>
+						<label>$INFO[ListItem.Label]</label>
+						<visible>!ListItem.Property(man)</visible>
+						<include>dialog_CommonListItem</include>
+					</control>
+					<control type="label">
+						<width>750</width>
+						<label>$INFO[ListItem.Label]</label>
+						<visible>ListItem.Property(man)</visible>
+						<include>dialog_CommonListItem</include>
+					</control>
+				</itemlayout>
+				<focusedlayout width="600" height="60">
+					<control type="image">
+						<width>758</width>
+						<height>60</height>
+						<include>dialog_CommonList</include>
+					</control>
+					<control type="group">
+						<visible>Control.HasFocus(150)</visible>
+						<control type="image">
+							<width>758</width>
+							<include>dialog_CommonListFocus</include>
+						</control>
+						<control type="label">
+							<width>750</width>
+							<label>$INFO[ListItem.Label]</label>
+							<visible>!ListItem.Property(man)</visible>
+							<include>dialog_CommonListItemFocus</include>
+						</control>
+						<control type="label">
+							<width>750</width>
+							<label>$INFO[ListItem.Label]</label>
+							<visible>ListItem.Property(man)</visible>
+							<include>dialog_CommonListItemFocus</include>
+						</control>
+					</control>
+					<control type="group">
+						<visible>!Control.HasFocus(150)</visible>
+						<control type="label">
+							<width>750</width>
+							<label>$INFO[ListItem.Label]</label>
+							<visible>!ListItem.Property(man)</visible>
+							<textcolor>Selected</textcolor>
+							<include>dialog_CommonListItemFocus</include>
+						</control>
+						<control type="label">
+							<width>750</width>
+							<label>$INFO[ListItem.Label]</label>
+							<visible>ListItem.Property(man)</visible>
+							<textcolor>Selected</textcolor>
+							<include>dialog_CommonListItemFocus</include>
+						</control>
+					</control>
+				</focusedlayout>
+			</control>
+		</control>
+		<!-- RIGHT PANE -->
+		<control type="group">
+			<animation effect="slide" start="0" end="315" time="250" tween="Cubic" easing="Out" condition="Control.HasFocus(150)">Conditional</animation>
+			<control type="image">
+				<width>1350</width>
+				<height>855</height>
+				<include>dialogWindow</include>
+			</control>
+			<control type="label">
+				<width>1248</width>
+				<posx>51</posx>
+				<label>$INFO[System.AddonTitle(script.xbmc.subtitles)]</label>
+				<include>dialog_Windowtitle</include>
+			</control>
+			<control type="image">
+				<posx>28</posx>
+				<posy>142</posy>
+				<width>1294</width>
+				<include>dialog_Separator</include>
+			</control>
+			<control type="image">
+				<posx>28</posx>
+				<posy>741</posy>
+				<width>1294</width>
+				<include>dialog_Separator</include>
+			</control>
+			<!--search result-->
+			<control type="label" id="100">
+				<posy>93</posy>
+				<width>1248</width>
+				<wrapmultiline>false</wrapmultiline>
+				<include>dialog_Line</include>
+			</control>
+			<control type="image" id="110">
+				<description>Service Logo</description>
+				<visible>false</visible>
+			</control>
+			<!--local subtitle available-->
+			<control type="group">
+				<posx>48</posx>
+				<posy>753</posy>
+				<control type="image">
+					<posy>14</posy>
+					<width>36</width>
+					<height>36</height>
+					<texture>addons/subtitles/icon_info.png</texture>
+				</control>
+				<control type="label">
+					<posx>30</posx>
+					<width min="15" max="1050">auto</width>
+					<label>$LOCALIZE[31107]</label>
+					<include>dialog_Label</include>
+					<visible>!Control.IsVisible(111)</visible>
+				</control>
+				<control type="group" id="111">
+					<control type="label">
+						<posx>30</posx>
+						<width min="15" max="1050">auto</width>
+						<include>dialog_Label</include>
+						<label>$LOCALIZE[SCRIPT655] - $LOCALIZE[31107]</label>
+					</control>
+				</control>
+			</control>
+			<control type="list" id="120">
+				<viewtype label="535">list</viewtype>
+				<posx>28</posx>
+				<posy>142</posy>
+				<width>1294</width>
+				<height>606</height>
+				<onleft>150</onleft>
+				<onright>121</onright>
+				<onup>120</onup>
+				<ondown>120</ondown>
+				<pagecontrol>121</pagecontrol>
+				<scrolltime tween="Cubic" easing="Out">400</scrolltime>
+				<itemlayout width="1294" height="60">
+					<control type="image">
+						<width>1294</width>
+						<height>60</height>
+						<include>dialog_CommonList</include>
+					</control>
+					<control type="image">
+						<posx>10</posx>
+						<posy>4</posy>
+						<width>48</width>
+						<height>48</height>
+						<texture>flags/countries/$INFO[ListItem.Thumb]/flag.png</texture>
+					</control>
+					<control type="label">
+						<posx>72</posx>
+						<width>1005</width>
+						<label>$INFO[ListItem.Label2]</label>
+						<include>dialog_CommonListItem</include>
+					</control>
+					<control type="image">
+						<posx>1102</posx>
+						<posy>16</posy>
+						<width>27</width>
+						<height>27</height>
+						<texture>addons/subtitles/icon_sync.png</texture>
+						<colordiffuse>Color4</colordiffuse>
+						<visible>ListItem.Property(sync)</visible>
+					</control>
+					<control type="image">
+						<posx>1148</posx>
+						<posy>18</posy>
+						<width>135</width>
+						<height>26</height>
+						<texture>addons/subtitles/info_window_icon_rating_star_$INFO[ListItem.ActualIcon].png</texture>
+						<colordiffuse>Color4</colordiffuse>
+					</control>
+				</itemlayout>
+				<focusedlayout width="1294" height="60">
+					<control type="group">
+						<visible>Control.HasFocus(120)</visible>
+						<control type="image">
+							<width>1294</width>
+							<height>60</height>
+							<include>dialog_CommonListFocus</include>
+						</control>
+						<control type="image">
+							<posx>10</posx>
+							<posy>4</posy>
+							<width>48</width>
+							<height>48</height>
+							<texture>flags/countries/$INFO[ListItem.Thumb]/flag.png</texture>
+						</control>
+						<control type="label">
+							<posx>72</posx>
+							<width>1005</width>
+							<info>ListItem.Label2</info>
+							<include>dialog_CommonListItemFocus</include>
+						</control>
+						<control type="image">
+							<posx>1102</posx>
+							<posy>16</posy>
+							<width>27</width>
+							<height>27</height>
+							<texture>addons/subtitles/icon_sync.png</texture>
+							<colordiffuse>Color1</colordiffuse>
+							<visible>ListItem.Property(sync)</visible>
+						</control>
+						<control type="image">
+							<posx>1148</posx>
+							<posy>18</posy>
+							<width>135</width>
+							<height>26</height>
+							<texture>addons/subtitles/info_window_icon_rating_star_$INFO[ListItem.ActualIcon].png</texture>
+							<colordiffuse>Color1</colordiffuse>
+						</control>
+					</control>
+					<control type="group">
+						<visible>!Control.HasFocus(120)</visible>
+						<control type="image">
+							<width>1294</width>
+							<height>60</height>
+							<texture border="4">dialogs/list-nofocus.png</texture>
+						</control>
+						<control type="image">
+							<posx>10</posx>
+							<posy>4</posy>
+							<width>48</width>
+							<height>48</height>
+							<texture>flags/countries/$INFO[ListItem.Thumb]/flag.png</texture>
+						</control>
+						<control type="label">
+							<posx>72</posx>
+							<width>1005</width>
+							<info>ListItem.Label2</info>
+							<textcolor>Selected</textcolor>
+							<include>dialog_CommonListItemFocus</include>
+						</control>
+						<control type="image">
+							<posx>1102</posx>
+							<posy>16</posy>
+							<width>27</width>
+							<height>27</height>
+							<texture>addons/subtitles/icon_sync.png</texture>
+							<colordiffuse>Selected</colordiffuse>
+							<visible>ListItem.Property(sync)</visible>
+						</control>
+						<control type="image">
+							<posx>1148</posx>
+							<posy>18</posy>
+							<width>135</width>
+							<height>26</height>
+							<texture>addons/subtitles/info_window_icon_rating_star_$INFO[ListItem.ActualIcon].png</texture>
+							<colordiffuse>Selected</colordiffuse>
+						</control>
+					</control>
+				</focusedlayout>
+			</control>
+		</control>
+		<control type="spincontrol" id="121">
+			<visible>false</visible>
+		</control>
+	</controls>
+</window>

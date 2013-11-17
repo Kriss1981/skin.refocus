@@ -568,13 +568,13 @@
 		</focusedlayout>
 	</include>
 
-<!--- BIG LIST ---------->
+<!--  BIG LIST  -->
 	<include name="view_BigList">
 		<control type="group">
 			<include>transition_Container</include>
 			<include>infoDialogHide</include>
 			<include>toggle_Menu</include>
-			<!---selector--->
+			<!-- selector -->
 			<control type="image">
 				<posx>29</posx>
 				<posy>237</posy>
@@ -593,7 +593,7 @@
 				<animation effect="slide" start="0,0" end="0,8" time="0" condition="Skin.HasSetting(numitems.enable)">Conditional</animation>
 				<visible>Window.IsVisible(musiclibrary) + Control.IsVisible(51)</visible>
 			</control>
-			<!--container--->
+			<!--container -->
 			<control type="fixedlist" id="51">
 				<viewtype label="537">biglist</viewtype> 
 				<posx>30</posx>
@@ -755,7 +755,7 @@
 			</control>
 		</focusedlayout>
 		<!--portrait-->
-		<itemlayout condition="[[Container.Content(tvshows) | Container.Content(movies)] + Skin.HasSetting(view.biglist.posters)] | [[Container.Content(tvshows) | Container.Content(movies)] + SubString(Container.FolderPath,plugin://)]"width="625" height="150">
+		<itemlayout condition="[[Container.Content(tvshows) | Container.Content(movies)] + Skin.HasSetting(view.biglist.posters)] | [[Container.Content(tvshows) | Container.Content(movies)] + SubString(Container.FolderPath,plugin://)]" width="625" height="150">
 			<control type="image">
 				<width>100</width>
 				<height>144</height>
@@ -903,7 +903,7 @@
 	</include>
 
 	<include name="BigList_Music">
-		<itemlayout condition="Container.Content(albums) | Container.Content(songs)"width="625" height="150">
+		<itemlayout condition="Container.Content(albums) | Container.Content(songs)" width="625" height="150">
 			<control type="image">
 				<width>144</width>
 				<height>144</height>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="28">
+	<defaultcontrol always="true">50</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<controls>
+		<include>global_Background</include>
+		<include>global_Includes</include>
+		<include>menu_Playlist</include>
+		<include>view_List</include>
+		<include>transition_Container</include>
+		<include>infoDialogHide</include>
+		<include>contextMenuHide</include>
+		<include>windowTitle_Playlists</include>
+		<include>nav_Indicator</include>
+		<control type="button" id="70">
+			<onleft>50</onleft>
+			<width>150</width>
+			<onclick>ActivateWindow(fullscreenvideo)</onclick>
+			<visible allowhiddenfocus="true">false</visible>
+		</control>
+		<control type="group">
+			<posx>1000</posx>
+			<posy>105</posy>
+			<include>infoDialogHide</include>
+			<include>transition_Container</include>
+			<include>toggle_Menu</include>
+			<control type="image">
+				<width>834</width>
+				<height>498</height>
+				<texture border="46">frames/frame_Square.png</texture>
+				<visible>Player.HasVideo + !Control.HasFocus(70)</visible>
+			</control>
+			<control type="image">
+				<posx>22</posx>
+				<posy>22</posy>
+				<width>789</width>
+				<height>454</height>
+				<texture border="15">views/list-focus-bigAlt.png</texture>
+				<visible>Player.HasVideo + Control.HasFocus(70)</visible>
+			</control>
+			<control type="image">
+				<posx>34</posx>
+				<posy>34</posy>
+				<width>765</width>
+				<height>430</height>
+				<texture>black.png</texture>
+				<visible>Player.HasVideo</visible>
+			</control>
+			<control type="grouplist">
+				<posx>34</posx>
+				<posy>495</posy>
+				<itemgap>0</itemgap>
+				<visible>Player.HasVideo</visible>
+				<control type="label" id="1">
+					<width>765</width>
+					<label>$INFO[VideoPlayer.Title]</label>
+					<include>info_Title</include>
+				</control>
+				<control type="label" id="1">
+					<width>765</width>
+					<label>$INFO[VideoPlayer.Label]</label>
+					<include>info_Title</include>
+					<visible>IsEmpty(VideoPlayer.Title)</visible>
+				</control>
+				<control type="label" id="1">
+					<width>765</width>
+					<label>$INFO[VideoPlayer.Time(hh:mm:ss),, / ]$INFO[VideoPlayer.Duration(hh:mm:ss),, • ]$INFO[Player.FinishTime,$LOCALIZE[31068] ]</label>
+					<include>info_Sub</include>
+				</control>
+				<control type="textbox" id="4">
+					<width>765</width>
+					<height>330</height>
+					<aligny>top</aligny>
+					<label>$INFO[VideoPlayer.Plot]</label>
+					<textcolor>Color7</textcolor>
+					<font>description.Regular</font>
+				</control>
+			</control>
+		</control>
+		<control type="videowindow">
+			<posx>1035</posx>
+			<posy>140</posy>
+			<width>765</width>
+			<height>430</height>
+			<include>fadeinout</include>
+			<visible>Player.HasVideo + !ControlGroup(6000).HasFocus(0) + !Window.IsActive(2003)</visible>
+		</control>
+	</controls>
+</window>

@@ -1,5 +1,5 @@
 ﻿<includes>
-<!---GLOBAL------>
+<!-- GLOBAL -->
 	<variable name="global_Clock.Formats">
 		<value condition="substring(system.time,AM,right)">[B]$INFO[System.Time(h),,:]$INFO[System.Time(mm)][/B]AM</value>
 		<value condition="substring(system.time,PM,right)">[B]$INFO[System.Time(h),,:]$INFO[System.Time(mm)][/B]PM</value>
@@ -26,7 +26,7 @@
 		<value condition="!Control.IsVisible(56)">$INFO[ListItem.Art(fanart)]</value>
 	</variable>
 
-<!---VIEWS------>
+<!-- VIEWS -->
 	<variable name="global_Title">
 		<value condition="SubString(Container.FolderPath,plugin.video.hulu)">$INFO[ListItem.Label]</value>
 		<!--episodes--><value condition="Container.Content(episodes) + [SubString(Container.FolderName,$LOCALIZE[20387]) | SubString(Container.FolderPath,special://skin/playlists/) | SubString(Container.FolderPath,special://profile/playlists/)] + !IsEmpty(ListItem.Title)">$INFO[ListItem.TVShowTitle]$INFO[ListItem.Title,: ]</value>
@@ -43,7 +43,7 @@
 	</variable>
 	<variable name="global_Info">
 		<!--movie set--><value condition="Container.Content(movies) + ListItem.IsFolder + SubString(Container.FolderPath,videodb) + !IsEmpty(ListItem.Title)">$LOCALIZE[20338] $LOCALIZE[20141]</value>
-		<!--trailers---><value condition="Container.Content(movies) + !IsEmpty(ListItem.Property(ReleaseDate))">$INFO[ListItem.Property(ReleaseDate)]$INFO[ListItem.Genre, • ]</value>
+		<!--trailers --><value condition="Container.Content(movies) + !IsEmpty(ListItem.Property(ReleaseDate))">$INFO[ListItem.Property(ReleaseDate)]$INFO[ListItem.Genre, • ]</value>
 		<!--movies--><value condition="Container.Content(movies)">$INFO[ListItem.Year]$INFO[ListItem.Duration, • , $LOCALIZE[31100]]$INFO[ListItem.Genre, • ]</value>
 		<!--tvshows--><value condition="Container.Content(tvshows) + !IsEmpty(Window(Home).Property(NextAired.Label))">$INFO[ListItem.Property(UnWatchedEpisodes),, $LOCALIZE[16101] $LOCALIZE[20360]]$VAR[tvshow_Info.NextAired, • ]</value>
 		<!--tvshows--><value condition="Container.Content(tvshows) + IsEmpty(Window(Home).Property(NextAired.Label)) + !IsEmpty(ListItem.Property(UnWatchedEpisodes))">$INFO[ListItem.Property(UnWatchedEpisodes),, $LOCALIZE[16101] $LOCALIZE[20360]]</value>
@@ -110,7 +110,7 @@
 		<value>$INFO[ListItem.Label2]</value>
 	</variable>
 
-<!---IMAGES------>
+<!-- IMAGES -->
 	<variable name="thumb_Landscape.Condition">
 		<value condition="!IsEmpty(ListItem.Art(fanart)) + ![Container.Content(episodes) | Container.Content(musicvideos)]">$INFO[ListItem.Art(fanart)]</value>
 		<value condition="IsEmpty(ListItem.Art(fanart)) + IsEmpty(ListItem.Thumb) + Container.Content(movies)">thumbs/movie_landscape.jpg</value>
@@ -163,7 +163,7 @@
 		<value>rating/nf-rating5.png</value>
 	</variable>
 
-<!---FLAGS------>
+<!-- FLAGS -->
 	<variable name="flag_Studio">
 		<value condition="Container.Content(movies)">$INFO[Listitem.studio,flags/studios/,.png]</value>
 		<value condition="Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)">$INFO[Listitem.Studio,flags/networks/,.png]</value>
@@ -179,7 +179,7 @@
 		<value condition="MusicPlayer.Content(files)">$INFO[MusicPlayer.Property(Album_Label),flags/labels/,.png]</value>
 	</variable>
 
-<!---WINDOW TITLES------>
+<!-- WINDOW TITLES -->
 	<variable name="window_Title.Video">
 	<!--video sources-->
 		<value condition="[Container.Content(tvshows) | Container.Content(movies) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(musicvideos) | Container.Content(Files) | StringCompare(Container.FolderPath,sources://video/)] + !SubString(Container.FolderPath,videodb) + !SubString(Container.FolderPath,skin) + !SubString(Container.FolderPath,plugin://plugin.video.the.trailers)">$LOCALIZE[157] [COLOR=Color2]$INFO[Container.FolderName][/COLOR]</value>
@@ -268,7 +268,7 @@
 		<value condition="Window.IsVisible(musicplaylist) + !Window.IsActive(2001)">$LOCALIZE[2] [COLOR=Color2]$LOCALIZE[559][/COLOR]</value>
 	</variable>
 
-<!---INFODIALOG------>
+<!-- INFODIALOG -->
 	<variable name="videoInfo.Header">
 		<value condition="Container.Content(movies) + !IsEmpty(ListItem.Property(ReleaseDate))">$INFO[ListItem.Property(ReleaseDate)]</value>
 		<value condition="Container.Content(movies) + !IsEmpty(ListItem.Tagline)">$INFO[ListItem.Tagline]</value>		
@@ -283,7 +283,7 @@
 		<value>$LOCALIZE[206]</value>
 	</variable>
 
-<!---OSD------>
+<!-- OSD -->
 	<variable name="osd.Title">
 		<value condition="Window.IsActive(visualisation) | Window.IsActive(slideshow)">$INFO[MusicPlayer.Title]</value>
 		<value condition="VideoPlayer.Content(livetv)">$INFO[VideoPlayer.ChannelNumber,,. ]$INFO[VideoPlayer.Title]</value>
@@ -300,7 +300,7 @@
 		<value condition="Player.ChapterCount">$LOCALIZE[21396]$INFO[Player.Chapter,: ]$INFO[Player.ChapterCount, / ]$INFO[Player.ChapterName, • ,]</value>
 	</variable>
 
-<!---PLAYER------>
+<!-- PLAYER -->
 	<variable name="player_Plot.Condition">
 		<value condition="!IsEmpty(VideoPlayer.Plotoutline) + !VideoPlayer.Content(livetv)">$INFO[VideoPlayer.Plotoutline]</value>
 		<value condition="!IsEmpty(VideoPlayer.Plot)">$INFO[VideoPlayer.Plot]</value>
@@ -323,7 +323,7 @@
 		<!--rwd32--><value condition="Player.Rewinding32x">$LOCALIZE[31050]</value>
 	</variable>
 	
-<!---PVR------>	
+<!-- PVR -->	
 	<variable name="PVR_Status.Condition">
 		<!--<value condition="![ListItem.HasTimer + ListItem.IsRecording]">pvr/status_none.png</value>-->
 		<value condition="ListItem.HasTimer + !ListItem.IsRecording">pvr/status_timer.png</value>

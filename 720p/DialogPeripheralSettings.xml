@@ -64,7 +64,7 @@
 		<control type="spincontrolex" id="9">
 			<include>dialog_Spin</include>
 		</control>
-	<!---dialog buttons--->
+	<!-- dialog buttons -->
 		<control type="group" id="9001">
 			<posx>34</posx>
 			<posy>450</posy>

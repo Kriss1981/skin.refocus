@@ -27,7 +27,7 @@
 					<width>663</width>
 					<include>dialog_Separator</include>
 				</control>
-				<!---name & type--->
+				<!-- name & type -->
 				<control type="group">
 					<!--set playlist type-->
 					<control type="spincontrolex" id="22">
@@ -63,7 +63,7 @@
 						<texturenofocus border="3">dialogs/list-nofocus.png</texturenofocus>
 					</control>
 				</control>
-				<!---rules--->
+				<!-- rules -->
 				<control type="group">
 					<posy>95</posy>
 					<control type="label">
@@ -132,7 +132,7 @@
 							</control>
 						</focusedlayout>
 					</control>
-					<!---list controls--->
+					<!-- list controls -->
 					<control type="group" id="9000">
 						<posx>543</posx>
 						<posy>40</posy>
@@ -200,7 +200,7 @@
 						</control>
 					</control>
 				</control>
-				<!---options--->
+				<!-- options -->
 				<control type="group">
 					<posy>271</posy>
 					<control type="label" id="0">
@@ -268,7 +268,7 @@
 				</control>
 			</control>
 		</control>
-		<!---confirm buttons--->
+		<!-- confirm buttons -->
 		<control type="group" id="9001">
 			<posx>418</posx>
 			<posy>570</posy>

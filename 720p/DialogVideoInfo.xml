@@ -6,7 +6,7 @@
 			<include>transition_Container</include>
 			<include>toggle_Menu</include>
 			<include>RecentTVShowPanel</include>
-			<!---images--->
+			<!-- images -->
 			<control type="group">
 				<posx>20</posx>
 				<posy>28</posy>

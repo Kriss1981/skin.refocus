@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="123">
+	<defaultcontrol>5</defaultcontrol>
+	<include>dialogOpen</include>
+	<coordinates>
+		<system>1</system>
+		<posx>510</posx>
+		<posy>60</posy>
+	</coordinates>
+	<controls>
+		<control type="group">
+			<visible>!Window.IsActive(145)</visible>
+			<control type="image" id="1">
+				<include>dialogWindow</include>
+				<width>900</width>
+				<height>960</height>
+				<visible>Window.IsActive(osdvideosettings)</visible>
+			</control>
+			<control type="image" id="1">
+				<include>dialogWindow</include>
+				<width>900</width>
+				<height>840</height>
+				<visible>Window.IsActive(osdaudiosettings)</visible>
+			</control>
+			<control type="label" id="2">
+				<width>798</width>
+				<include>dialog_Windowtitle</include>
+			</control>
+			<control type="group">
+				<posx>28</posx>
+				<posy>112</posy>
+				<control type="image">
+					<width>844</width>
+					<include>dialog_Separator</include>
+				</control>
+				<control type="grouplist" id="5">
+					<width>844</width>
+					<height>780</height>
+					<itemgap>0</itemgap>
+					<onleft>5</onleft>
+					<onright>5</onright>
+					<onup>5</onup>
+					<ondown>5</ondown>
+					<pagecontrol>60</pagecontrol>
+					<visible>Window.IsActive(osdvideosettings)</visible>
+				</control>
+				<control type="grouplist" id="5">
+					<width>844</width>
+					<height>660</height>
+					<itemgap>0</itemgap>
+					<onleft>5</onleft>
+					<onright>5</onright>
+					<onup>5</onup>
+					<ondown>5</ondown>
+					<pagecontrol>60</pagecontrol>
+					<visible>Window.IsActive(osdaudiosettings)</visible>
+				</control>
+			</control>
+			<control type="sliderex" id="10">
+				<include>dialog_Slider</include>
+			</control>
+			<control type="button" id="7">
+				<include>dialog_Button-list</include>
+			</control>
+			<control type="radiobutton" id="8">
+				<include>dialog_Radio</include>
+			</control>
+			<control type="spincontrolex" id="9">
+				<include>dialog_Spin</include>
+			</control>
+		</control>
+	</controls>
+</window>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="139">
+	<defaultcontrol>5</defaultcontrol>
+	<include>dialogOpen</include>
+	<coordinates>
+		<system>1</system>
+		<posx>398</posx>
+		<posy>105</posy>
+	</coordinates>
+	<controls>
+		<control type="group">
+			<control type="image">
+				<width>1125</width>
+				<height>832</height>
+				<include>dialogWindow</include>
+			</control>
+			<control type="label" id="1">
+				<width>1023</width>
+				<label>13406</label>
+				<include>dialog_Windowtitle</include>
+			</control>
+			<control type="group">
+				<posx>28</posx>
+				<posy>112</posy>
+				<control type="image">
+					<width>1068</width>
+					<include>dialog_Separator</include>
+				</control>
+				<control type="list" id="5">
+					<posy>1</posy>
+					<width>1070</width>
+					<height>600</height>
+					<onup>5</onup>
+					<ondown>5</ondown>
+					<scrolltime tween="Cubic" easing="Out">200</scrolltime>
+					<itemlayout height="60">
+						<control type="image">
+							<width>1070</width>
+							<include>dialog_CommonList</include>
+						</control>
+						<control type="label">
+							<posx>30</posx>
+							<width>900</width>
+							<label>$INFO[ListItem.Label]</label>
+							<font>smallerCaps</font>
+							<include>dialog_CommonListItem</include>
+						</control>
+						<control type="label">
+							<posx>1040</posx>
+							<width>710</width>
+							<label>$INFO[ListItem.Label2]</label>
+							<align>right</align>
+							<include>dialog_CommonListItem</include>
+						</control>
+					</itemlayout>
+					<focusedlayout height="60">
+						<control type="image">
+							<width>1070</width>
+							<include>dialog_CommonListFocus</include>
+						</control>
+						<control type="label">
+							<posx>30</posx>
+							<width>900</width>
+							<label>$INFO[ListItem.Label]</label>
+							<font>smallerCaps</font>
+							<include>dialog_CommonListItemFocus</include>
+						</control>
+						<control type="label">
+							<posx>1040</posx>
+							<width>710</width>
+							<label>$INFO[ListItem.Label2]</label>
+							<align>right</align>
+							<include>dialog_CommonListItemFocus</include>
+						</control>
+					</focusedlayout>
+				</control>
+			</control>
+			<control type="label">
+				<posx>51</posx>
+				<posy>728</posy>
+				<width>1023</width>
+				<label>$INFO[Container(5).CurrentPage]/$INFO[Container(5).NumPages]</label>
+				<include>dialog_Label-pages</include>
+			</control>
+		</control>
+	</controls>
+</window>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="2006">
+	<allowoverlay>no</allowoverlay>
+	<controls>
+		<control type="visualisation" id="2">
+			<include>screen_Dimensions</include>
+			<visible>!Skin.HasSetting(fanart.visualization) | Skin.HasSetting(fanart.visualization.blend)</visible>
+		</control>
+		<control type="image">
+			<include>screen_Dimensions</include>
+			<texture fallback="backgrounds/artist.jpg">$INFO[MusicPlayer.Property(Fanart_Image)]</texture>
+			<visible>Skin.HasSetting(fanart.visualization)</visible>
+			<include>transition_Fanart</include>
+			<animation effect="fade" start="100" end="80" time="0" condition="Skin.HasSetting(fanart.visualization.blend)">Conditional</animation>
+		</control>
+		<control type="group">
+			<posx>8</posx>
+			<posy>8</posy>
+			<visible>Player.ShowCodec</visible>
+			<control type="image" id="1">
+				<width>1905</width>
+				<height>140</height>
+				<texture border="24">black.png</texture>
+			</control>
+			<control type="group">
+				<posx>15</posx>
+				<posy>8</posy>
+				<control type="label" id="10">
+					<width>1890</width>
+					<label>$INFO[Musicplayer.Codec,Codec: ,]$INFO[Musicplayer.Bitrate, · Bitrate: ,kbps]$INFO[MusicPlayer.Bitspersample, · Bits: ,bit]$INFO[MusicPlayer.SampleRate, · Freq: ,kHz]$INFO[MusicPlayer.Channels, · Channels: ]</label>
+					<textcolor>Color1</textcolor>
+					<font>smallerCaps</font>
+				</control>
+				<control type="label" id="11">
+					<posy>39</posy>
+					<width>1890</width>
+					<label>$LOCALIZE[250]: $INFO[Visualisation.Name] [I]($LOCALIZE[20166])[/I] · FPS: $INFO[System.FPS]</label>&gt;
+					<font>smallerCaps</font><textcolor>Color1</textcolor></control>
+				<control type="label" id="12">
+					<posy>78</posy>
+					<width>1890</width>
+					<label fallback="· (UnAvailable)">$LOCALIZE[13388]: $INFO[Visualisation.Preset]</label>
+					<textcolor>Color1</textcolor>
+					<font>smallerCaps</font>
+				</control>
+			</control>
+		</control>
+		<control type="group" id="1">
+			<include>osd_Info</include>
+			<include>transition_OSD</include>
+			<visible>Player.ShowInfo</visible>
+		</control>
+	</controls>
+</window>

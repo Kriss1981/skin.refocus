@@ -64,7 +64,7 @@
 					<include>dialog_Separator</include>
 				</control>
 			</control>
-		<!---dialog buttons--->
+		<!-- dialog buttons -->
 			<control type="group" id="9001">
 				<posx>34</posx>
 				<posy>415</posy>

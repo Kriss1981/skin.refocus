@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="2007">
+	<defaultcontrol>2</defaultcontrol>
+	<controls>
+		<include condition="Player.HasAudio">osd_Info</include>
+	</controls>
+</window>

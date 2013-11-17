@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window type="dialog" id="134">
+	<defaultcontrol always="true">450</defaultcontrol>
+	<include>dialogOpen</include>
+	<coordinates>
+		<system>1</system>
+		<posx>510</posx>
+		<posy>150</posy>
+	</coordinates>
+	<controls>
+		<control type="image">
+			<width>900</width>
+			<height>712</height>
+			<include>dialogWindow</include>
+		</control>
+		<control type="label" id="1">
+			<width>798</width>
+			<label>$LOCALIZE[1036]</label>
+			<include>dialog_Windowtitle</include>
+		</control>
+		<control type="group">
+			<posx>28</posx>
+			<posy>112</posy>
+			<control type="image">
+				<width>844</width>
+				<include>dialog_Separator</include>
+			</control>
+			<control type="list" id="450">
+				<width>844</width>
+				<height>480</height>
+				<onup>450</onup>
+				<ondown>450</ondown>
+				<onright>-</onright>
+				<scrolltime tween="Cubic" easing="Out">scrolltime_Dialog</scrolltime>
+				<itemlayout height="60">
+					<control type="image">
+						<width>844</width>
+						<include>dialog_CommonList</include>
+					</control>
+					<control type="label">
+						<width>814</width>
+						<info>ListItem.Label</info>
+						<include>dialog_CommonListItem</include>
+					</control>
+				</itemlayout>
+				<focusedlayout height="60">
+					<control type="image">
+						<width>844</width>
+						<include>dialog_CommonList</include>
+						<visible>!Control.HasFocus(450)</visible>
+					</control>
+					<control type="image">
+						<width>844</width>
+						<height>60</height>
+						<include>dialog_CommonListFocus</include>
+						<visible>Control.HasFocus(450)</visible>
+					</control>
+					<control type="label">
+						<posx>22</posx>
+						<width>814</width>
+						<info>ListItem.Label</info>
+						<include>dialog_CommonListItemFocus</include>
+					</control>
+				</focusedlayout>
+			</control>
+		</control>
+		<control type="label">
+			<posx>51</posx>
+			<posy>608</posy>
+			<width>801</width>
+			<label>$INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages]</label>
+			<include>dialog_Label-pages</include>
+		</control>
+	</controls>
+</window>

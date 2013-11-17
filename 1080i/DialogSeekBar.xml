@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="115">
+	<defaultcontrol>-</defaultcontrol>
+	<visible>[Window.IsActive(fullscreenvideo) | Window.IsActive(visualisation)] + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | Player.Caching] + ![Window.IsActive(infodialog) | Window.IsActive(script-XBMC-Subtitles-main.xml)]</visible>
+	<controls>
+		<include>clock</include>
+		<control type="group" id="213">
+			<posy>1016</posy>
+			<animation type="WindowOpen">
+				<effect type="slide" start="0,96" end="0,0" tween="Cubic" center="auto" easing="Out" time="250" />
+			</animation>
+			<animation type="WindowClose">
+				<effect type="slide" start="0,0" end="0,144" tween="Cubic" center="auto" easing="Out" time="250" />
+			</animation>
+			<control type="image" id="1">
+				<width>screen_Width</width>
+				<height>75</height>
+				<texture flipy="false" border="4">osd/seekbar.png</texture>
+			</control>
+			<control type="group">
+				<posx>382</posx>
+				<posy>4</posy>
+				<!--cache progress-->
+				<control type="progress" id="1">
+					<width>1155</width>
+					<height>33</height>
+					<info>Player.CacheLevel</info>
+					<texturebg border="10">dialogs/cacheBackground.png</texturebg>
+					<midtexture border="16">dialogs/cacheSlider.png</midtexture>
+					<lefttexture>-</lefttexture>
+					<righttexture>-</righttexture>
+					<overlaytexture>-</overlaytexture>
+				</control>
+				<!--playback progress-->
+				<control type="progress" id="1">
+					<posy>15</posy>
+					<width>1155</width>
+					<height>33</height>
+					<texturebg border="10">dialogs/progressBackground.png</texturebg>
+					<info>Player.Progress</info>
+				</control>
+			</control>
+			<control type="group" id="1">
+				<posy>4</posy>
+				<control type="label" id="1">
+					<posx>360</posx>
+					<label>$VAR[player_Status.Condition]</label>
+					<include>seekbar_Label</include>
+				</control>
+				<control type="label" id="22">
+					<posx>1560</posx>
+					<width>375</width>
+					<align>left</align>
+					<label>[B]$INFO[Player.Time][/B] / $INFO[Player.Duration]</label>
+					<include>seekbar_Label</include>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

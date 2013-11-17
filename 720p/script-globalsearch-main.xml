@@ -30,7 +30,7 @@
 				<include>dialog_Separator-y</include>
 			</control>
 		</control>
-	<!---category list------>
+	<!-- category list -->
 		<control type="group">
 			<posx>19</posx>
 			<posy>75</posy>
@@ -136,10 +136,10 @@
 						</item>
 					</content>
 				</control>
-			<!---search results------>
+			<!-- search results -->
 				<control type="group" id="200">
 					<posx>281</posx>
-				<!---movie results------>
+				<!-- movie results -->
 					<control type="group" id="119">
 						<visible>Container(9000).HasFocus(1) | Control.HasFocus(111)</visible>
 						<control type="list" id="111">
@@ -231,7 +231,7 @@
 							</focusedlayout>
 						</control>
 					</control>
-				<!---tv show results------>
+				<!-- tv show results -->
 					<control type="group" id="129">
 						<visible>Container(9000).HasFocus(2) | Control.HasFocus(121)</visible>
 						<control type="list" id="121">
@@ -331,7 +331,7 @@
 							</focusedlayout>
 						</control>
 					</control>
-				<!---season results------>
+				<!-- season results -->
 					<control type="group" id="139">
 						<visible>Container(9000).HasFocus(3) | Control.HasFocus(131)</visible>
 						<control type="list" id="131">
@@ -423,7 +423,7 @@
 							</focusedlayout>
 						</control>
 					</control>
-				<!---episode results------>
+				<!-- episode results -->
 					<control type="group" id="149">
 						<visible>Container(9000).HasFocus(4) | Control.HasFocus(141)</visible>
 						<control type="list" id="141">
@@ -515,7 +515,7 @@
 							</focusedlayout>
 						</control>
 					</control>
-				<!---music video results------>
+				<!-- music video results -->
 					<control type="group" id="159">
 						<visible>Container(9000).HasFocus(5) | Control.HasFocus(151)</visible>
 						<control type="list" id="151">
@@ -606,7 +606,7 @@
 							</focusedlayout>
 						</control>
 					</control>
-				<!---artist results------>
+				<!-- artist results -->
 					<control type="group" id="169">
 						<visible>Container(9000).HasFocus(6) | Control.HasFocus(161)</visible>
 						<control type="list" id="161">
@@ -654,7 +654,7 @@
 							</focusedlayout>
 						</control>
 					</control>		
-				<!---album results------>
+				<!-- album results -->
 					<control type="group" id="179">
 						<visible>Container(9000).HasFocus(7) | Control.HasFocus(171)</visible>
 						<control type="panel" id="171">
@@ -746,7 +746,7 @@
 							</focusedlayout>
 						</control>
 					</control>
-				<!---song results------>
+				<!-- song results -->
 					<control type="group" id="189">
 						<visible>Container(9000).HasFocus(8) | Control.HasFocus(181)</visible>
 						<control type="list" id="181">
@@ -841,7 +841,7 @@
 					</control>
 				</control>
 			</control>
-		<!---dialog controls------>
+		<!-- dialog controls -->
 			<control type="button" id="901">
 				<posx>15</posx>
 				<posy>545</posy>

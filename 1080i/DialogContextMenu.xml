@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="106">
+	<defaultcontrol>1000</defaultcontrol>
+	<include>dialogOpen</include>
+	<coordinates>
+		<system>1</system>
+		<posx>0</posx>
+		<posy>0</posy>
+		<origin x="485" y="100" />
+	</coordinates>
+	<controls>
+		<control type="image" id="999">
+			<width>465</width>
+			<height>654</height>
+			<texture border="30">dialogs/button_Menu.png</texture>
+		</control>
+		<control type="image">
+			<posx>6</posx>
+			<posy>27</posy>
+			<width>453</width>
+			<include>dialog_Separator</include>
+		</control>
+		<control type="grouplist" id="996">
+			<posx>6</posx>
+			<posy>27</posy>
+			<width>453</width>
+			<height min="60" max="600">auto</height>
+			<itemgap>0</itemgap>
+		</control>
+		<!--default button-->
+		<control type="button" id="1000">
+			<posx>14</posx>
+			<width>502</width>
+			<include>dialog_Button-list</include>
+		</control>
+	</controls>
+</window>

@@ -8,7 +8,7 @@
 			<label>$LOCALIZE[5] [COLOR=Color2]$LOCALIZE[166][/COLOR]</label>
 			<include>windowTitle</include>
 		</control>
-<!---CATEGORIES------->
+<!-- CATEGORIES- -->
 		<control type="grouplist" id="9001">
 			<posx>15</posx>
 			<posy>125</posy>
@@ -87,7 +87,7 @@
 				</control>
 			</control>
 		</control>
-<!---HOME SCREEN------>	
+<!-- HOME SCREEN -->	
 		<control type="grouplist" id="100">
 			<posx>340</posx>
 			<posy>93</posy>
@@ -158,7 +158,7 @@
 				<include>button_Settings</include>
 			</control>
 		</control>
-<!---ARTWORK------>
+<!-- ARTWORK -->
 		<control type="grouplist" id="600">
 			<posx>340</posx>
 			<posy>93</posy>
@@ -278,7 +278,7 @@
 				<enable>System.HasAddon(script.artwork.downloader)</enable>
 			</control>
 		</control>
-<!---VIEW SETTINGS------>					
+<!-- VIEW SETTINGS -->					
 		<control type="grouplist" id="700">
 			<posx>340</posx>
 			<posy>93</posy>
@@ -372,7 +372,7 @@
 				<include>button_Settings</include>
 			</control>
 		</control>
-<!---ADDONS------>
+<!-- ADDONS -->
 		<control type="grouplist" id="800">
 			<posx>340</posx>
 			<posy>93</posy>
@@ -400,7 +400,7 @@
 				<include>button_Settings</include>
 			</control>
 		</control>
-<!---OTHER------>
+<!-- OTHER -->
 		<control type="grouplist" id="900">
 			<posx>340</posx>
 			<posy>93</posy>
@@ -449,7 +449,7 @@
 				<include>button_Settings</include>
 			</control>
 		</control>
-<!---SKIN CREDITS------>					
+<!-- SKIN CREDITS -->					
 		<control type="group" id="1000">
 			<posx>370</posx>
 			<posy>85</posy>
@@ -467,7 +467,7 @@
 				<include>textBox</include>
 			</control>
 		</control>
-<!---IMAGES------>
+<!-- IMAGES -->
 		<control type="image">
 			<posx>90</posx>
 			<posy>590</posy>

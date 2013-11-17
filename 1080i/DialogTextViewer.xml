@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="2004">
+	<defaultcontrol>10</defaultcontrol>
+	<include>dialogOpen</include>
+	<coordinates>
+		<system>1</system>
+		<posx>510</posx>
+		<posy>117</posy>
+	</coordinates>
+	<controls>
+		<control type="image" id="0">
+			<width>900</width>
+			<height>855</height>
+			<include>dialogWindow</include>
+		</control>
+		<control type="label" id="1">
+			<posx>51</posx>
+			<width>798</width>
+			<label>$LOCALIZE[262]</label>
+			<include>dialog_Windowtitle</include>
+		</control>
+		<control type="group">
+			<posx>28</posx>
+			<posy>106</posy>
+			<control type="image">
+				<width>844</width>
+				<include>dialog_Separator</include>
+			</control>
+			<control type="image">
+				<posy>614</posy>
+				<width>844</width>
+				<include>dialog_Separator</include>
+			</control>
+		</control>
+		<control type="group">
+			<posx>51</posx>
+			<posy>110</posy>
+			<control type="textbox" id="5">
+				<width>798</width>
+				<height>609</height>
+				<textcolor>Color4</textcolor>
+				<pagecontrol>111</pagecontrol>
+				<autoscroll delay="6000" time="3000" repeat="100">!Control.HasFocus(111)</autoscroll>
+				<include>dialog_Textbox</include>
+			</control>
+			<!-- dialog controls -->
+			<control type="group" id="9000">
+				<posy>633</posy>
+				<!--ok-->
+				<control type="button" id="10">
+					<label>$LOCALIZE[186]</label>
+					<onleft>111</onleft>
+					<onright>111</onright>
+					<include>dialog_Button</include>
+					<onclick>Dialog.Close(textviewer)</onclick>
+				</control>
+				<control type="spincontrol" id="111">
+					<posx>698</posx>
+					<posy>8</posy>
+					<width>48</width>
+					<height>48</height>
+					<font>small</font>
+					<textcolor>Color4</textcolor>
+					<focusedcolor>Color5</focusedcolor>
+					<align>right</align>
+					<onleft>10</onleft>
+					<onright>10</onright>
+					<subtype>page</subtype>
+					<showonepage>false</showonepage>
+					<include>dialog_Spin</include>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

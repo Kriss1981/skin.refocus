@@ -2,7 +2,7 @@
 	<include name="homeSubMenu">
 		<control type="group" id="1100">
 			<posy>20</posy>
-<!---VIDEO SUBMENU------->
+<!-- VIDEO SUBMENU- -->
 			<control type="list" id="1110">
 				<posx>-800</posx>
 				<width>640</width>
@@ -74,7 +74,7 @@
 					</item>
 				</content>
 			</control>
-<!---LIVE TV SUBMENU------>
+<!-- LIVE TV SUBMENU -->
 			<control type="list" id="1120">
 				<posx>-800</posx>
 				<width>900</width>
@@ -123,7 +123,7 @@
 					</item>
 				</content>
 			</control>
-<!---MUSIC SUBMENU------>
+<!-- MUSIC SUBMENU -->
 			<control type="list" id="1130">
 				<posx>-800</posx>
 				<width>900</width>
@@ -199,7 +199,7 @@
 					</item>
 				</content>
 			</control>
-<!---PICTURES SUBMENU------->
+<!-- PICTURES SUBMENU- -->
 			<control type="list" id="1140">
 				<posx>-800</posx>
 				<width>900</width>
@@ -224,7 +224,7 @@
 					</item>
 				</content>
 			</control>
-<!---ADDONS SUBMENU------>
+<!-- ADDONS SUBMENU -->
 			<control type="list" id="1150">
 				<posx>-800</posx>
 				<width>900</width>
@@ -290,7 +290,7 @@
 					</item>
 				</content>
 			</control>
-<!---SYSTEM SUBMENU------>
+<!-- SYSTEM SUBMENU -->
 			<control type="list" id="1160">
 				<posx>-800</posx>
 				<width>900</width>
@@ -332,7 +332,7 @@
 					</item>
 				</content>
 			</control>
-<!---EXIT SUBMENU
+<!-- EXIT SUBMENU
 			<control type="list" id="1170">
 				<posx>-800</posx>
 				<width>900</width>
@@ -387,8 +387,8 @@
 					</item>
 				</content>
 			</control>
-		------>
-<!---DISC SUBMENU------>
+		 -->
+<!-- DISC SUBMENU -->
 			<control type="list" id="1180">
 				<posx>-800</posx>
 				<width>900</width>
@@ -415,7 +415,7 @@
 					</item>
 				</content>
 			</control>
-<!---MOVIES SUBMENU------>
+<!-- MOVIES SUBMENU -->
 			<control type="list" id="1200">
 				<posx>-800</posx>
 				<width>900</width>
@@ -484,7 +484,7 @@
 				</content>
 			</control>
 
-<!---TVSHOWS SUBMENU------>
+<!-- TVSHOWS SUBMENU -->
 			<control type="list" id="1210">
 				<posx>-800</posx>
 				<width>900</width>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="2002">
+	<defaultcontrol>10</defaultcontrol>
+	<include>dialogOpen</include>
+	<coordinates>
+		<system>1</system>
+		<posx>548</posx>
+		<posy>352</posy>
+	</coordinates>
+	<controls>
+		<control type="group">
+			<control type="image">
+				<width>825</width>
+				<height>375</height>
+				<include>dialogWindow</include>
+			</control>
+			<control type="label" id="1">
+				<width>723</width>
+				<label>13406</label>
+				<include>dialog_Windowtitle</include>
+			</control>
+			<control type="label" id="2">
+				<posy>98</posy>
+				<width>723</width>
+				<include>dialog_Line</include>
+			</control>
+			<control type="label" id="3">
+				<posy>135</posy>
+				<width>723</width>
+				<include>dialog_Line</include>
+			</control>
+			<control type="label" id="4">
+				<posy>172</posy>
+				<width>723</width>
+				<include>dialog_Line</include>
+			</control>
+			<control type="button" id="10">
+				<posx>334</posx>
+				<posy>262</posy>
+				<label>186</label>
+				<include>dialog_Button</include>
+			</control>
+		</control>
+	</controls>
+</window>

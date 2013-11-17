@@ -28,7 +28,7 @@
 				<include>dialog_Windowtitle</include>
 			</control>
 
-		<!---MAIN CONTAINER------>
+		<!-- MAIN CONTAINER -->
 			<control type="group" id="101">
 				<posx>19</posx>
 				<posy>75</posy>
@@ -36,7 +36,7 @@
 					<width>613</width>
 					<include>dialog_Separator</include>
 				</control>
-			<!---MOVIES------>
+			<!-- MOVIES -->
 				<control type="list" id="110">
 					<width>800</width>
 					<height>200</height>
@@ -177,7 +177,7 @@
 						</item>
 					</content>
 				</control>
-			<!---TV SHOWS------>
+			<!-- TV SHOWS -->
 				<control type="list" id="120">
 					<width>800</width>
 					<height>200</height>
@@ -300,7 +300,7 @@
 						</item>
 					</content>
 				</control>
-			<!---SEASONS------>
+			<!-- SEASONS -->
 				<control type="list" id="130">
 					<width>800</width>
 					<height>200</height>
@@ -405,7 +405,7 @@
 						</item>
 					</content>
 				</control>
-			<!---EPISODES------>
+			<!-- EPISODES -->
 				<control type="list" id="140">
 					<width>800</width>
 					<height>200</height>
@@ -545,7 +545,7 @@
 						</item>
 					</content>
 				</control>
-			<!---MUSIC VIDEOS------>
+			<!-- MUSIC VIDEOS -->
 				<control type="list" id="150">
 					<width>800</width>
 					<height>200</height>
@@ -681,7 +681,7 @@
 					</content>
 				</control>
 
-			<!---ARTISTS------>
+			<!-- ARTISTS -->
 				<control type="list" id="160">
 					<width>800</width>
 					<height>200</height>
@@ -816,7 +816,7 @@
 						</item>
 					</content>
 				</control>
-			<!---ALBUMS------>
+			<!-- ALBUMS -->
 				<control type="list" id="170">
 					<width>800</width>
 					<height>200</height>
@@ -958,7 +958,7 @@
 						</item>
 					</content>
 				</control>
-			<!---SONGS------>
+			<!-- SONGS -->
 				<control type="list" id="180">
 					<width>800</width>
 					<height>200</height>
@@ -1099,7 +1099,7 @@
 						</item>
 					</content>
 				</control>
-			<!---DESCRIPTION------>
+			<!-- DESCRIPTION -->
 				<control type="group">
 					<posx>15</posx>	
 					<posy>213</posy>
@@ -1138,7 +1138,7 @@
 					<include>dialog_Separator</include>
 				</control>
 			</control>
-		<!--dialog controls------>
+		<!--dialog controls -->
 			<control type="group" id="190">
 				<posx>97</posx>
 				<posy>515</posy>
@@ -1188,7 +1188,7 @@
 				</control>
 			</control>
 		</control>
-		<!---unused--->
+		<!-- unused -->
 		<control type="spincontrol" id="195">
 			<visible>false</visible>
 		</control>

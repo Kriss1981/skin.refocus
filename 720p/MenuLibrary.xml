@@ -410,7 +410,7 @@
 					</control>
 				</control>
 			</control>
-<!---viewtype selection------>
+<!-- viewtype selection -->
 			<control type="grouplist" id="40">
 				<posy>20</posy>
 				<visible allowhiddenfocus="true">ControlGroup(40).HasFocus()</visible>
@@ -669,7 +669,7 @@
 					</control>
 				</control>
 			</control>
-<!---viewtype selection------>
+<!-- viewtype selection -->
 			<control type="grouplist" id="40">
 				<posy>20</posy>
 				<visible allowhiddenfocus="true">ControlGroup(40).HasFocus()</visible>

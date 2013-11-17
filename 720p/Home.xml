@@ -3,7 +3,7 @@
 	<onload>AlarmClock(home_Slideshow,Control.Move(600,1)),00:10,silent,loop)</onload>
 	<allowoverlay>no</allowoverlay>
 	<controls>
-	<!-- global background --->
+	<!-- global background  -->
 		<control type="largeimage">
 			<include>screen_Dimensions</include>
 			<texture background="true">backgrounds/background.png</texture>
@@ -19,9 +19,9 @@
 			</animation>
 			<visible>![Player.HasVideo + !Skin.HasSetting(home.backgroundvideo)] | [Skin.HasSetting(slideshow.fanart) + ![Library.HasContent(movies) + Library.HasContent(tvshows)]]</visible>
 		</control>
-	<!-- slideshows--->
+	<!-- slideshows -->
 		<include>home_Slideshows</include>
-	<!-- background video --->
+	<!-- background video  -->
 		<control type="image">
 			<include>screen_Dimensions</include>
 			<texture>black.png</texture>
@@ -32,7 +32,7 @@
 			<include>screen_Dimensions</include>
 			<visible>!Skin.HasSetting(home.backgroundvideo) + !Window.IsActive(videoplaylist) + Player.HasVideo</visible>
 		</control>
-	<!-- weather fanart --->
+	<!-- weather fanart  -->
 		<control type="multiimage" id="1">
 			<include>screen_Dimensions</include>
 			<aspectratio>stretch</aspectratio>
@@ -44,7 +44,7 @@
 			<include>fadeinout</include>
 			<visible allowhiddenfocus="true">Skin.HasSetting(fanart.weather) + Container(9000).HasFocus(17)</visible>
 		</control>
-	<!-- now playing fanart --->
+	<!-- now playing fanart  -->
 		<control type="image">
 			<include>screen_Dimensions</include>
 			<texture>$INFO[MusicPlayer.Property(Fanart_Image)]</texture>
@@ -53,28 +53,28 @@
 			<include>fadeinout</include>
 			<visible allowhiddenfocus="true">Container(9000).HasFocus(21)</visible>
 		</control>
-	<!-- menu shade --->
+	<!-- menu shade  -->
 		<control type="image">
 			<include>screen_Dimensions</include>
 			<texture>home/menuBackground.png</texture>
 			<aspectratio align="left">stretch</aspectratio>
 			<include>fadeinout</include>
 		</control>
-	<!-- toast overlay --->
+	<!-- toast overlay  -->
 		<control type="image" id="1">
 			<include>screen_Dimensions</include>
 			<texture border="16">overlays/vignette.png</texture>
 			<include>transition_Toast</include>
 			<visible>Window.IsActive(infodialog) | Window.IsActive(extendedprogressdialog)</visible>
 		</control>
-	<!---time------>
+	<!-- time -->
 		<control type="group">
 			<include>clock</include>
 			<include>fadeinout</include>
 			<include>toggle_ToastMute</include>
 			<visible>Skin.HasSetting(home.time) + ![Window.IsActive(videoscan) | Window.IsActive(musicscan) | Window.IsActive(infodialog)]</visible>
 		</control>
-	<!---menu------>
+	<!-- menu -->
 		<include>HomeMenu</include>
 		<control type="group" id="6100">
 			<posx>20</posx>
@@ -96,7 +96,7 @@
 				<visible>Skin.HasSetting(indicator.enable) + [Control.HasFocus(1110) | Control.HasFocus(1120) | Control.HasFocus(1130) | Control.HasFocus(1140) | Control.HasFocus(1150) | Control.HasFocus(1160) | Control.HasFocus(1170) | Control.HasFocus(1180) | Control.HasFocus(1200) | Control.HasFocus(1210)]</visible>
 			</control>
 		</control>
-	<!---rss feed------>
+	<!-- rss feed -->
 		<control type="group">
 			<posy>684</posy>
 			<visible>system.getbool(lookandfeel.enablerssfeeds) + !Skin.HasSetting(home.stats)</visible>
@@ -121,7 +121,7 @@
 				<include>fadeinout</include>
 			</control>
 		</control>
-	<!---stats------>	
+	<!-- stats -->	
 		<control type="group">
 			<posy>684</posy>
 			<visible>Skin.HasSetting(home.stats)</visible>

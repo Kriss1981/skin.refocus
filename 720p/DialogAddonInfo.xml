@@ -179,7 +179,7 @@
 					</control>
 				</control>
 			</control>
-			<!---dialog buttons--->
+			<!-- dialog buttons -->
 			<control type="grouplist" id="10000">
 				<posx>34</posx>
 				<posy>526</posy>

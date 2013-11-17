@@ -10,7 +10,7 @@
 		<include>PageControls</include>
 		<include>windowTitle_Pictures</include>
 
-<!---TRIGGER------>	
+<!-- TRIGGER -->	
 		<control type="button" id="8000">
 			<label>SHOULD NOT SEE ME</label>
 			<onup>53</onup>
@@ -21,7 +21,7 @@
 			<visible allowhiddenfocus="true">false</visible>
 		</control>
 
-<!---LIST VIEW------>
+<!-- LIST VIEW -->
 		<control type="group">
 			<include>infoDialogHide</include>
 			<include>toggle_Menu</include>
@@ -54,10 +54,10 @@
 			</control>
 		</control>
 
-		<!---addons--->
+		<!-- addons -->
 		<include>info_AddonList</include>
 
-<!---THUMBNAILS VIEW------>
+<!-- THUMBNAILS VIEW -->
 		<include>view_IconFiles</include>
 		<control type="group">
 			<visible>Control.IsVisible(573)</visible>
@@ -82,7 +82,7 @@
 			</control>
 		</control>
 
-<!---GALLERY VIEW------>	
+<!-- GALLERY VIEW -->	
 		<control type="group">
 			<posx>265</posx>
 			<posy>105</posy>

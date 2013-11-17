@@ -18,7 +18,7 @@
 		<include>view_IconLandscape</include>
 		<include>view_BigList</include>
 
-<!---TRIGGER------>	
+<!-- TRIGGER -->	
 		<control type="button" id="8000">
 			<label>SHOULD NOT SEE ME</label>
 			<onup>54</onup>
@@ -29,7 +29,7 @@
 			<visible allowhiddenfocus="true">false</visible>
 		</control>
 
-<!---LIST VIEW------>
+<!-- LIST VIEW -->
 		<control type="group">
 			<posx>655</posx>
 			<posy>68</posy>
@@ -50,18 +50,18 @@
 		<include>info_MusicList</include>
 		<include>info_AddonList</include>
 
-<!---SLIDE VIEW------>
+<!-- SLIDE VIEW -->
 		<include>info_Slide</include>
 		<include>info_SlideAddons</include>
 
-<!---THUMBNAILS VIEW------>
+<!-- THUMBNAILS VIEW -->
 		<control type="group">
 			<include>transition_Info</include>
 			<include>toggle_Menu</include>
 			<include>infoDialogHide</include>
 			<visible>Control.IsVisible(573) | Control.IsVisible(572)</visible>
 			<control type="group">
-				<!---flags
+				<!-- flags
 				<control type="image">
 					<posx>195r</posx>
 					<posy>638</posy>
@@ -70,7 +70,7 @@
 					<aspectratio align="right">keep</aspectratio>
 					<texture>$VAR[flag_Studio]</texture>
 				</control>
-				--->
+				 -->
 				<control type="group">
 					<animation effect="slide" start="0,0" end="25,-5" time="0" condition="Container.Content(artists)">Conditional</animation>
 					<posx>60</posx>

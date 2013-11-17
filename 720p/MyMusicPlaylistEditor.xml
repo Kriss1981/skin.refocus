@@ -42,7 +42,7 @@
 				<include>button_Category</include>
 			</control>
 		</control>
-		<!---panes--->
+		<!-- panes -->
 		<control type="group">
 			<include>transition_Container</include>
 			<posy>100</posy>

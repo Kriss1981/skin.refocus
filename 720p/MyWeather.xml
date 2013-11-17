@@ -6,7 +6,7 @@
 			<onleft>6000</onleft>
 			<visible allowhiddenfocus="true">false</visible>
 		</control>
-	<!---backgrounds------>
+	<!-- backgrounds -->
 		<include>global_Background</include>
 		<control type="multiimage" id="1">
 			<include>screen_Dimensions</include>
@@ -26,7 +26,7 @@
 			<include>fadeinout</include>
 			<visible>ControlGroup(6000).HasFocus()</visible>
 		</control>
-	<!--window elements------>
+	<!--window elements -->
 		<control type="group">
 			<include>transition_WindowTitle</include>
 			<control type="label">
@@ -60,13 +60,13 @@
 					<include>toast_Bottom</include>
 				</control>
 			</control>
-		<!---main container------>
+		<!-- main container -->
 			<control type="group">
 				<posx>55</posx>
 				<posy>330</posy>
 				<include>toggle_Menu</include>
 				<include>transition_Container</include>
-			<!--current--->
+			<!--current -->
 				<control type="group" id="5000">
 					<onleft>6000</onleft>
 					<animation type="WindowOpen">
@@ -141,7 +141,7 @@
 						</control>
 					</control>
 				</control>
-			<!---today--->
+			<!-- today -->
 				<control type="group">
 					<posx>235</posx>
 					<animation type="WindowOpen">
@@ -193,7 +193,7 @@
 						</control>
 					</control>
 				</control>
-			<!---day 1--->
+			<!-- day 1 -->
 				<control type="group">
 					<posx>470</posx>
 					<animation type="WindowOpen">
@@ -245,7 +245,7 @@
 						</control>
 					</control>
 				</control>
-			<!---day 2--->
+			<!-- day 2 -->
 				<control type="group">
 					<posx>705</posx>
 					<animation type="WindowOpen">
@@ -297,7 +297,7 @@
 						</control>
 					</control>
 				</control>
-			<!---day 3--->
+			<!-- day 3 -->
 				<control type="group">
 					<posx>940</posx>
 					<animation type="WindowOpen">
@@ -351,7 +351,7 @@
 				</control>
 			</control>
 		</control>
-	<!---call menu------>
+	<!-- call menu -->
 		<include>WeatherMenu</include>
 	</controls>
 </window>

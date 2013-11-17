@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="29">
+	<defaultcontrol>52</defaultcontrol>
+	<coordinates>
+		<system>1</system>
+		<posx>0</posx>
+		<posy>0</posy>
+	</coordinates>
+	<controls>
+		<control type="image">
+			<include>screen_Dimensions</include>
+			<texture background="true">backgrounds/background.png</texture>
+			<aspectratio>scale</aspectratio>
+			<include>transition_BG</include>
+		</control>
+		<control type="image">
+			<include>screen_Dimensions</include>
+			<texture background="true">overlays/vignette.png</texture>
+			<aspectratio>scale</aspectratio>
+			<include>transition_BG</include>
+		</control>
+		<control type="group">
+			<posy>300</posy>
+			<include>transition_Info</include>
+			<control type="label">
+				<label>$LOCALIZE[31102]</label>
+				<align>center</align>
+				<width>screen_Width</width>
+				<font>light.Window</font>
+				<textcolor>Color1</textcolor>
+			</control>
+			<control type="label">
+				<posy>60</posy>
+				<label>$LOCALIZE[31110]</label>
+				<align>center</align>
+				<width>screen_Width</width>
+				<font>light.Title</font>
+				<textcolor>Color2</textcolor>
+			</control>
+		</control>
+		<control type="wraplist" id="52">
+			<posx>-630</posx>
+			<posy>450</posy>
+			<width>3412</width>
+			<height>645</height>
+			<onleft>52</onleft>
+			<onright>52</onright>
+			<scrolltime>150</scrolltime>
+			<orientation>horizontal</orientation>
+			<focusposition>2</focusposition>
+			<include>transition_Container</include>
+			<itemlayout width="645" height="450">
+				<control type="image">
+					<width>600</width>
+					<height>378</height>
+					<texture background="true" diffuse="frames/wideFrameMask.png" fallback="thumbs/user.png">$INFO[ListItem.Icon]</texture>
+					<bordertexture border="33">frames/frame_Square.png</bordertexture>
+					<bordersize>33</bordersize>
+					<aspectratio scalediffuse="false">scale</aspectratio>
+				</control>
+				<control type="label" id="1">
+					<posx>300</posx>
+					<posy>360</posy>
+					<width>600</width>
+					<align>center</align>
+					<label>$INFO[ListItem.Label]</label>
+					<include>label_Login</include>
+				</control>
+			</itemlayout>
+			<focusedlayout width="645" height="450">
+				<control type="image">
+					<width>600</width>
+					<height>378</height>
+					<texture background="true" diffuse="frames/wideFrameMask.png" fallback="thumbs/user.png">$INFO[ListItem.Icon]</texture>
+					<bordertexture border="33">frames/frame_Square.png</bordertexture>
+					<bordersize>33</bordersize>
+					<aspectratio scalediffuse="false">scale</aspectratio>
+					<include>focus_SlideLogin</include>
+				</control>
+				<control type="label" id="1">
+					<posx>300</posx>
+					<posy>360</posy>
+					<width>600</width>
+					<align>center</align>
+					<label>$INFO[ListItem.Label]</label>
+					<include>label_Login</include>
+					<include>focus_SlideLoginUser</include>
+				</control>
+			</focusedlayout>
+		</control>
+	</controls>
+</window>

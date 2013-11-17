@@ -6,7 +6,7 @@
 			<size>20</size>
 		</font>
 
-<!---NEW------>	
+<!-- NEW -->	
 		<font>
 			<name>light</name>
 			<filename>Light.ttf</filename>
@@ -202,140 +202,8 @@
 			<filename>Light.ttf</filename>
 			<size>46</size>
 		</font>
-		
 
-
-<!---WINDOWS------>
-		<!---
-		
-		<font>
-			<name>windowTitleAlt</name>
-			<filename>Light.ttf</filename>
-			<size>52</size>
-		</font>-->
-
-		
-
-<!---CONTAINERS------>
-		
-		<!--
-		<font>
-			<name>listBig</name>
-			<filename>RegularLow.ttf</filename>
-			<size>26</size>
-		</font>
-		
-		<font>
-			<name>titleAlt</name>
-			<filename>LightAlt.ttf</filename>
-			<size>28</size>
-		</font>
-		<font>
-			<name>titleSmall</name>
-			<filename>LightCaps.ttf</filename>
-			<size>26</size>
-		</font>
-		<font>
-			<name>titleSmaller</name>
-			<filename>LightCaps.ttf</filename>
-			<size>24</size>
-		</font>
-		<font>
-			<name>titleLow</name>
-			<filename>Light.ttf</filename>
-			<size>28</size>
-		</font>
-		<font>
-			<name>titleSpecial</name>
-			<filename>Light.ttf</filename>
-			<size>42</size>
-		</font>
-		<font>
-			<name>titleSpecial2</name>
-			<filename>Light.ttf</filename>
-			<size>30</size>
-		</font>
-		--->
-		
-		
-<!---GENERAL
-		
-		<font>
-			<name>normalAlt</name>
-			<filename>Regular.ttf</filename>
-			<size>22</size>
-		</font>
-		<font>
-			<name>normalCaps</name>
-			<filename>RegularCaps.ttf</filename>
-			<size>22</size>
-		</font>
-		<font>
-			<name>small</name>
-			<filename>RegularLow.ttf</filename>
-			<size>20</size>
-		</font>	
-		<font>
-			<name>smallAlt</name>
-			<filename>Regular.ttf</filename>
-			<size>20</size>
-		</font>		
-		<font>
-			<name>smallCaps</name>
-			<filename>RegularCaps.ttf</filename>
-			<size>20</size>
-		</font>
-		<font>
-			<name>smallBold</name>
-			<filename>RegularLow.ttf</filename>
-			<style>bold</style>
-			<size>20</size>
-		</font>	
-		
-		
-	------>
-	
-	
-<!---SETTINGS------
-		<font>
-			<name>category</name>
-			<filename>Light.ttf</filename>
-			<size>30</size>
-		</font>
-
-		<font>
-			<name>osdTitle</name>
-			<filename>LightCaps.ttf</filename>
-			<size>32</size>
-		</font>
-		<font>
-			<name>osdHeader</name>
-			<filename>Light.ttf</filename>
-			<size>48</size>
-		</font>
-
-		<font>
-			<name>titleInfoDialog</name>
-			<filename>LightAlt.ttf</filename>
-			<size>46</size>
-		</font>	
-		<font>
-			<name>dialog1</name>
-			<filename>Light.ttf</filename>
-			<size>32</size>
-		</font>
-		<font>
-			<name>dialog2</name>
-			<filename>RegularLow.ttf</filename>
-			<size>20</size>
-		</font>
-		<font>
-			<name>keyboard</name>
-			<filename>Regular.ttf</filename>
-			<size>20</size>
-		</font>
-
-<!---SCRIPT REFERENCE/LEGACY------>
+<!-- SCRIPT REFERENCE/LEGACY -->
 		<font>
 			<name>font10</name>
 			<filename>Arial.ttf</filename>
@@ -359,11 +227,9 @@
 	</fontset>
 
 
-<!---------------------------------------------------------------------------------------------------------------------------------------------->
-<!----- ALTERNATE ------------------------------------------------------------------------------------------------------------------------------>
-<!---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- ALTERNATE -->
 	<fontset id="Alternate" unicode="true">
-		<!---HOME------>
+		<!-- HOME -->
 		<font>
 			<name>homeMenu</name>
 			<filename>Light.ttf</filename>
@@ -379,7 +245,7 @@
 			<filename>RegularCaps.ttf</filename>
 			<size>18</size>
 		</font>
-<!---WINDOWS------>
+<!-- WINDOWS -->
 		<font>
 			<name>windowTitle</name>
 			<filename>Light.ttf</filename>
@@ -395,13 +261,13 @@
 			<filename>Light.ttf</filename>
 			<size>34</size>
 		</font>
-<!---TOAST------>
+<!-- TOAST -->
 		<font>
 			<name>toastProgress</name>
 			<filename>LightCaps.ttf</filename>
 			<size>42</size> 
 		</font>
-<!---CONTAINERS------>
+<!-- CONTAINERS -->
 		<font>
 			<name>list</name>
 			<filename>RegularLow.ttf</filename>
@@ -459,7 +325,7 @@
 			<filename>Regular.ttf</filename>
 			<size>20</size>
 		</font>
-<!---GENERAL------>
+<!-- GENERAL -->
 		<font>
 			<name>normal</name>
 			<filename>RegularLow.ttf</filename>
@@ -501,13 +367,13 @@
 			<filename>RegularCaps.ttf</filename>
 			<size>18</size>
 		</font>
-<!---SETTINGS------>
+<!-- SETTINGS -->
 		<font>
 			<name>category</name>
 			<filename>Light.ttf</filename>
 			<size>30</size>
 		</font>
-<!---OSD------>	
+<!-- OSD -->	
 		<font>
 			<name>osdTitle</name>
 			<filename>LightCaps.ttf</filename>
@@ -518,7 +384,7 @@
 			<filename>Light.ttf</filename>
 			<size>48</size>
 		</font>
-<!---DIALOGS------>
+<!-- DIALOGS -->
 		
 		<font>
 			<name>dialog1</name>
@@ -535,7 +401,7 @@
 			<filename>Regular.ttf</filename>
 			<size>20</size>
 		</font>
-<!---SCRIPT REFERENCE/LEGACY------>
+<!-- SCRIPT REFERENCE/LEGACY -->
 		<font>
 			<name>font10</name>
 			<filename>Arial.ttf</filename>
@@ -559,11 +425,9 @@
 	</fontset>
 
 
-<!---------------------------------------------------------------------------------------------------------------------------------------------->
-<!----- UNICODE -------------------------------------------------------------------------------------------------------------------------------->
-<!---------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- UNICODE -->
 	<fontset id="Unicode" unicode="true">
-		<!---HOME------>
+		<!-- HOME -->
 		<font>
 			<name>homeMenu</name>
 			<filename>Arial.ttf</filename>
@@ -579,7 +443,7 @@
 			<filename>Arial.ttf</filename>
 			<size>18</size>
 		</font>
-<!---WINDOWS------>
+<!-- WINDOWS -->
 		<font>
 			<name>windowTitle</name>
 			<filename>Arial.ttf</filename>
@@ -595,13 +459,13 @@
 			<filename>Arial.ttf</filename>
 			<size>34</size>
 		</font>
-<!---TOAST------>
+<!-- TOAST -->
 		<font>
 			<name>toastProgress</name>
 			<filename>Arial.ttf</filename>
 			<size>42</size> 
 		</font>
-<!---CONTAINERS------>
+<!-- CONTAINERS -->
 		<font>
 			<name>list</name>
 			<filename>Arial.ttf</filename>
@@ -667,7 +531,7 @@
 			<filename>Arial.ttf</filename>
 			<size>20</size>
 		</font>
-<!---GENERAL------>
+<!-- GENERAL -->
 		<font>
 			<name>normal</name>
 			<filename>Arial.ttf</filename>
@@ -709,13 +573,13 @@
 			<filename>Arial.ttf</filename>
 			<size>18</size>
 		</font>
-<!---SETTINGS------>
+<!-- SETTINGS -->
 		<font>
 			<name>category</name>
 			<filename>Arial.ttf</filename>
 			<size>26</size>
 		</font>
-<!---OSD------>	
+<!-- OSD -->	
 		<font>
 			<name>osdTitle</name>
 			<filename>Arial.ttf</filename>
@@ -726,7 +590,7 @@
 			<filename>Arial.ttf</filename>
 			<size>48</size>
 		</font>
-<!---DIALOGS------>
+<!-- DIALOGS -->
 		<font>
 			<name>titleInfoDialog</name>
 			<filename>Arial.ttf</filename>
@@ -747,7 +611,7 @@
 			<filename>Arial.ttf</filename>
 			<size>20</size>
 		</font>
-<!---SCRIPT REFERENCE/LEGACY------>
+<!-- SCRIPT REFERENCE/LEGACY -->
 		<font>
 			<name>font10</name>
 			<filename>Arial.ttf</filename>

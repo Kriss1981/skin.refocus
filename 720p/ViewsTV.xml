@@ -1,5 +1,5 @@
 ﻿<includes>
-<!---TV CHANNELS------>
+<!-- TV CHANNELS -->
 	<include name="view_TVChannels">
 		<control type="list" id="11">
 			<onup>11</onup>
@@ -7,7 +7,7 @@
 			<include>list_Channels</include>
 		</control>
 	</include>
-<!---RADIO CHANNELS--->
+<!-- RADIO CHANNELS -->
 	<include name="view_RadioChannels">		
 		<control type="list" id="12">
 			<onup>12</onup>
@@ -176,7 +176,7 @@
 		</focusedlayout>
 	</include>
 
-<!---RECORDINGS------>
+<!-- RECORDINGS -->
 	<include name="view_TV-recordings">
 		<control type="list" id="13">
 			<posx>25</posx>
@@ -265,13 +265,13 @@
 		</control>
 	</include>
 
-<!---GUIDE CHANNELS VIEW------>
+<!-- GUIDE CHANNELS VIEW -->
 	<include name="view_EPG-channels">
 		<control type="group">
 			<posx>39</posx>
 			<include>transition_Container</include>
 			<animation effect="fade" start="100" end="10" time="150" condition="ControlGroup(6000).HasFocus()">Conditional</animation>
-			<!---info------>
+			<!-- info -->
 			<control type="group">
 				<posy>100</posy>
 				<visible>Control.IsVisible(15)</visible>
@@ -306,7 +306,7 @@
 					<label>$LOCALIZE[552]</label>
 				</control>
 			</control>
-			<!---container------>
+			<!-- container -->
 			<control type="list" id="15">
 				<posy>135</posy>
 				<width>1220</width>
@@ -407,7 +407,7 @@
 		</control>
 	</include>
 
-<!---GUIDE NOW/NEXT VIEW------>
+<!-- GUIDE NOW/NEXT VIEW -->
 	<include name="view_EPG-now">
 		<control type="group">
 			<posx>39</posx>
@@ -582,9 +582,9 @@
 		</control>
 	</include>
 
-<!---GUIDE TIMELINE------>
+<!-- GUIDE TIMELINE -->
 	<include name="view_EPG-timeline">
-	<!---epg grid------>
+	<!-- epg grid -->
 		<control type="epggrid" id="10">
 			<posx>39</posx>
 			<posy>110</posy>
@@ -790,7 +790,7 @@
 		</control>
 	</include>
 
-<!---TIMERS VIEW------>
+<!-- TIMERS VIEW -->
 	<include name="view_TV-timers">
 		<control type="group">
 			<posx>39</posx>
@@ -951,7 +951,7 @@
 		</control>
 	</include>
 
-<!---SEARCH------>
+<!-- SEARCH -->
 	<include name="view_TV-search">
 		<control type="group">
 			<posx>39</posx>

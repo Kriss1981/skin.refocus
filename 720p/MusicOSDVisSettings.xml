@@ -35,7 +35,7 @@
 				<width>563</width>
 				<include>dialog_Separator</include>
 			</control>
-		<!---control area------>
+		<!-- control area -->
 			<control type="grouplist" id="5">
 				<description>control area</description>
 				<posx>19</posx>

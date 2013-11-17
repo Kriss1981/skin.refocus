@@ -17,7 +17,7 @@
 			<posx>34</posx>
 			<include>dialog_Windowtitle</include>
 		</control>
-		<!--sources--->
+		<!--sources -->
 		<control type="group">
 			<posx>19</posx>
 			<posy>75</posy>
@@ -99,7 +99,7 @@
 					</control>
 				</focusedlayout>
 			</control>
-			<!---browse controls--->
+			<!-- browse controls -->
 			<control type="group" id="9000">
 				<posx>543</posx>
 				<posy>40</posy>
@@ -162,7 +162,7 @@
 				</control>
 			</control>
 		</control>
-		<!---set source name--->
+		<!-- set source name -->
 		<control type="group">
 			<posx>19</posx>
 			<posy>330</posy>

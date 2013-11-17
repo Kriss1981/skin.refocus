@@ -2,7 +2,7 @@
 	<defaultcontrol always="true">52</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
 	<controls>
-	<!---fanart------>
+	<!-- fanart -->
 		<control type="image">
 			<include>screen_Dimensions</include>
 			<texture background="true">$INFO[Container(52).ListItem.Property(Fanart)]</texture>
@@ -10,11 +10,11 @@
 			<fadetime>fadetime_Fanart</fadetime>
 			<visible>Control.HasFocus(52) + Skin.HasSetting(fanart.global) + !IsEmptyContainer(52).ListItem.Property(Fanart)) + ![Player.HasVideo + Skin.HasSetting(backgroundvideo.global)]</visible>
 		</control>
-	<!---includes------>
+	<!-- includes -->
 		<include>global_Background</include>
 		<include>global_Includes</include>
 		<include>PageControls</include>
-	<!---window title--->
+	<!-- window title -->
 		<control type="label">
 			<label>$LOCALIZE[20343] [COLOR=Color2]$LOCALIZE[31086][/COLOR]</label>
 			<include>windowTitle</include>
@@ -25,13 +25,13 @@
 			<include>windowTitle</include>
 			<visible>Skin.String(Watchlist,Movies)</visible>
 		</control>
-	<!---item count------>
+	<!-- item count -->
 		<control type="label">
 			<label>[B]$INFO[Container(52).NumItems][/B] $LOCALIZE[31116]</label>
 			<include>custom_Itemcount</include>
 		</control>
 
-	<!--slide------>
+	<!--slide -->
 		<control type="group">
 			<include>transition_Container</include>
 			<include>toggle_Menu</include>
@@ -173,9 +173,9 @@
 				<include condition="Skin.String(Watchlist,Movies)">watchlist_Movies</include>
 
 			</control>
-		<!---info------>
+		<!-- info -->
 			<control type="group">
-				<!---flags--->
+				<!-- flags -->
 				<control type="group">
 					<posx>60</posx>
 					<posy>459</posy>

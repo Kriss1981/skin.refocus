@@ -1,5 +1,5 @@
 ﻿<includes>
-<!---NEXTAIRED------>
+<!-- NEXTAIRED -->
 	<include name="nextaired_Date">
 		<posx>75</posx>
 		<posy>70</posy>
@@ -125,7 +125,7 @@
 		</control>
 	</include>
 	
-<!---WATCHLIST------>	
+<!-- WATCHLIST -->	
 	<include name="watchlist_Shows">
 		<content>
 			<item id="1">
@@ -906,7 +906,7 @@
 		</content>
 	</include>
 
-<!---GLOBAL SEARCH------>
+<!-- GLOBAL SEARCH -->
 	<include name="globalsearch_Header">
 		<control type="image">
 			<width>1215</width>

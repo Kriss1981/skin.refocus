@@ -34,7 +34,7 @@
 				<width>762</width>
 				<include>dialog_Separator</include>
 			</control>
-		<!--button area------>	
+		<!--button area -->	
 			<control type="grouplist" id="100">
 				<width>225</width>
 				<height>480</height>
@@ -120,7 +120,7 @@
 				</control>
 			</control>
 
-		<!---control area------>	
+		<!-- control area -->	
 			<control type="group">
 			<!--video submenu-->
 				<control type="grouplist" id="200">

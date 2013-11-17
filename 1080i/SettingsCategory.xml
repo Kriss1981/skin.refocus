@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window id="12">
+	<defaultcontrol>888</defaultcontrol>
+	<allowoverlay>yes</allowoverlay>
+	<controls>
+		<include>global_Background</include>
+		<include>global_Includes</include>
+		<include>windowTitle_System</include>
+		<!--button area-->
+		<control type="grouplist" id="3">
+			<posx>22</posx>
+			<posy>188</posy>
+			<height>615</height>
+			<itemgap>0</itemgap>
+			<onleft>5</onleft>
+			<onright>5</onright>
+			<onup>3</onup>
+			<ondown>3</ondown>
+			<include>transition_Container</include>
+		</control>
+		<!--control area-->
+		<control type="grouplist" id="5">
+			<posx>510</posx>
+			<posy>135</posy>
+			<width>1275</width>
+			<height>900</height>
+			<itemgap>0</itemgap>
+			<onleft>3</onleft>
+			<onright>3</onright>
+			<onup>5</onup>
+			<ondown>5</ondown>
+			<include>transition_Container</include>
+		</control>
+		<!--defaults-->
+		<control type="button" id="7">
+			<include>button_Settings</include>
+		</control>
+		<control type="radiobutton" id="8">
+			<include>button_Settings</include>
+		</control>
+		<control type="spincontrolex" id="9">
+			<include>button_Settings</include>
+		</control>
+		<control type="button" id="10">
+			<label>[UPPERCASE]224[/UPPERCASE]</label>
+			<include>button_Category</include>
+		</control>
+		<control type="image">
+			<posx>466</posx>
+			<include>screen_Separator</include>
+		</control>
+	</controls>
+</window>
