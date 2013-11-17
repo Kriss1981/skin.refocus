@@ -14,7 +14,7 @@
 				<height>690</height>
 				<texture fallback="thumbs/album.png" background="true">$INFO[ListItem.Thumb]</texture>
 				<bordertexture border="46">frames/frame_Square.png</bordertexture>
-				<bordersize>33</bordersize>
+				<bordersize>22</bordersize>
 				<aspectratio>scale</aspectratio>
 				<visible>Container.Content(albums)</visible>
 			</control>
@@ -23,7 +23,7 @@
 				<height>690</height>
 				<texture fallback="thumbs/artist.png" background="true">$INFO[ListItem.Thumb]</texture>
 				<bordertexture border="46">frames/frame_Square.png</bordertexture>
-				<bordersize>33</bordersize>
+				<bordersize>22</bordersize>
 				<aspectratio align="center">keep</aspectratio>
 				<visible>Container.Content(artists)</visible>
 			</control>

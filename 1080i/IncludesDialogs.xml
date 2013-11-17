@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <includes>
 	<include name="dialogWindow">
-		<texture border="44">dialogs/dialogWindow.png</texture>
+		<texture border="29">dialogs/dialogWindow.png</texture>
 	</include>
 	<include name="dialog_Windowtitle">
 		<posx>51</posx>
@@ -23,7 +23,7 @@
 	</include>
 	<include name="dialog_CommonList">
 		<height>60</height>
-		<texture border="4">dialogs/list-nofocus.png</texture>
+		<texture border="3">dialogs/list-nofocus.png</texture>
 	</include>
 	<include name="dialog_CommonListItemFocus">
 		<posx>22</posx>
@@ -36,7 +36,7 @@
 	</include>
 	<include name="dialog_CommonListFocus">
 		<height>60</height>
-		<texture border="4">dialogs/list-focus.png</texture>
+		<texture border="3">dialogs/list-focus.png</texture>
 	</include>
 	<include name="dialog_Button-context">
 		<height>57</height>

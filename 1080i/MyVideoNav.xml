@@ -125,7 +125,7 @@
 						<height>938</height>
 						<texture background="true">$INFO[ListItem.Thumb]</texture>
 						<bordertexture border="46" width="400" height="315">frames/frame_Square.png</bordertexture>
-						<bordersize>33</bordersize>
+						<bordersize>22</bordersize>
 						<aspectratio align="right" aligny="top">keep</aspectratio>
 						<fadetime>fadetime_Thumb</fadetime>
 						<visible>!IsEmpty(ListItem.Thumb) + !substring(Container.FolderPath,plugin://) + !IsEmpty(Container.FolderPath)</visible>
@@ -344,7 +344,7 @@
 			<control type="image">
 				<width>1920</width>
 				<height>368</height>
-				<texture border="0,0,0,22">osd/fullscreenInfo.png</texture>
+				<texture border="0,0,0,15">osd/fullscreenInfo.png</texture>
 			</control>
 			<control type="group">
 				<posx>30</posx>

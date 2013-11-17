@@ -26,7 +26,7 @@
 				<posy>112</posy>
 				<width>1155</width>
 				<height>60</height>
-				<texture border="15,0,15,0">dialogs/textField.png</texture>
+				<texture border="10,0,10,0">dialogs/textField.png</texture>
 				<visible>!Control.HasFocus(9)</visible>
 			</control>
 			<control type="image" id="1">
@@ -34,7 +34,7 @@
 				<posy>112</posy>
 				<width>1155</width>
 				<height>60</height>
-				<texture border="15,0,15,0">dialogs/textFieldFocus.png</texture>
+				<texture border="10,0,10,0">dialogs/textFieldFocus.png</texture>
 				<visible>Control.HasFocus(9)</visible>
 			</control>
 			<!--search label-->

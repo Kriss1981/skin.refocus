@@ -18,7 +18,7 @@
 		<control type="image" id="997">
 			<width>420</width>
 			<height>352</height>
-			<texture border="30">dialogs/menuLeft.png</texture>
+			<texture border="20">dialogs/menuLeft.png</texture>
 		</control>
 		<control type="group">
 			<posx>14</posx>

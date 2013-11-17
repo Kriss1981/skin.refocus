@@ -355,8 +355,8 @@
 		<textoffsety>3</textoffsety>
 		<textcolor>Color1</textcolor>
 		<focusedcolor>Color1</focusedcolor>
-		<texturenofocus border="12">views/button.png</texturenofocus>
-		<texturefocus border="12">views/button-focus.png</texturefocus>
+		<texturenofocus border="8">views/button.png</texturenofocus>
+		<texturefocus border="8">views/button-focus.png</texturefocus>
 		<colordiffuse>column3</colordiffuse>
 	</include>
 	<!-- THUMBS -->
@@ -429,7 +429,7 @@
 	<include name="column">
 		<width>147</width>
 		<height>63</height>
-		<texture border="12">views/column.png</texture>
+		<texture border="8">views/column.png</texture>
 	</include>
 	<include name="listButton_Label">
 		<height>57</height>
@@ -445,46 +445,46 @@
 	</include>
 	<include name="listButton">
 		<height>63</height>
-		<texture border="12">views/listButton.png</texture>
+		<texture border="8">views/listButton.png</texture>
 		<colordiffuse>column3</colordiffuse>
 	</include>
 	<include name="listButton-focus">
 		<height>63</height>
-		<texture border="12">views/listButton.png</texture>
+		<texture border="8">views/listButton.png</texture>
 		<colordiffuse>column1</colordiffuse>
 	</include>
 	<include name="listButton_Alt">
 		<height>63</height>
-		<texture border="12">views/listButton_Alt.png</texture>
+		<texture border="8">views/listButton_Alt.png</texture>
 		<colordiffuse>column3</colordiffuse>
 	</include>
 	<include name="listButton_Alt-focus">
 		<height>63</height>
-		<texture border="12">views/listButton_Alt-focus.png</texture>
+		<texture border="8">views/listButton_Alt-focus.png</texture>
 		<colordiffuse>column3</colordiffuse>
 	</include>
 	<include name="listButton_Center">
 		<width>147</width>
 		<height>63</height>
-		<texture border="12">views/listButton_Center.png</texture>
+		<texture border="8">views/listButton_Center.png</texture>
 		<colordiffuse>column3</colordiffuse>
 	</include>
 	<include name="listButton_Center-focus">
 		<width>147</width>
 		<height>63</height>
-		<texture border="12">views/listButton_Center.png</texture>
+		<texture border="8">views/listButton_Center.png</texture>
 		<colordiffuse>column1</colordiffuse>
 	</include>
 	<include name="listButton_Right">
 		<width>147</width>
 		<height>63</height>
-		<texture border="12">views/listButton_Right.png</texture>
+		<texture border="8">views/listButton_Right.png</texture>
 		<colordiffuse>column3</colordiffuse>
 	</include>
 	<include name="listButton_Right-focus">
 		<width>147</width>
 		<height>63</height>
-		<texture border="12">views/listButton_Right.png</texture>
+		<texture border="8">views/listButton_Right.png</texture>
 		<colordiffuse>column1</colordiffuse>
 	</include>
 	<!-- HOUSEKEEPING -->
@@ -504,17 +504,17 @@
 	<include name="column_Left">
 		<width>147</width>
 		<height>63</height>
-		<texture border="12">views/column_Left.png</texture>
+		<texture border="8">views/column_Left.png</texture>
 	</include>
 	<include name="column_Right">
 		<width>147</width>
 		<height>63</height>
-		<texture border="12">views/column_Right.png</texture>
+		<texture border="8">views/column_Right.png</texture>
 	</include>
 	<include name="column_Top">
 		<width>147</width>
 		<height>63</height>
-		<texture border="12">views/column_Top.png</texture>
+		<texture border="8">views/column_Top.png</texture>
 	</include>
 	<!-- NOTIFICATIONS -->
 	<!--notificationTop-->
@@ -715,13 +715,13 @@
 			<control type="image" id="1">
 				<width>1920</width>
 				<height>360</height>
-				<texture border="36">osd/osdOverlay.png</texture>
+				<texture border="24">osd/osdOverlay.png</texture>
 				<visible>Player.HasVideo + ![VideoPlayer.Content(musicvideos) | VideoPlayer.Content(files)]</visible>
 			</control>
 			<control type="image" id="1">
 				<width>1920</width>
 				<height>297</height>
-				<texture border="36">osd/osdOverlay.png</texture>
+				<texture border="24">osd/osdOverlay.png</texture>
 				<visible>Player.HasAudio | VideoPlayer.Content(musicvideos) | VideoPlayer.Content(files)</visible>
 			</control>
 			<control type="image" id="1">

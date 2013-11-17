@@ -288,7 +288,7 @@
 					<posx>0</posx>
 					<width>960</width>
 					<height>202</height>
-					<texture border="15">views/list-focus-bigAlt.png</texture>
+					<texture border="10">views/list-focus-bigAlt.png</texture>
 					<bordersize>9</bordersize>
 					<aspectratio>stretch</aspectratio>
 				</control>

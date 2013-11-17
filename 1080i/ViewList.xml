@@ -46,7 +46,7 @@
 				<posy>-42</posy>
 				<width>975</width>
 				<height>150</height>
-				<texture border="0,45,0,45">views/list-focus.png</texture>
+				<texture border="0,30,0,30">views/list-focus.png</texture>
 				<include>focus_ListScrollAlt</include>
 				<visible>!ControlGroup(6000).HasFocus</visible>
 			</control>
@@ -118,7 +118,7 @@
 				<posy>-45</posy>
 				<width>975</width>
 				<height>192</height>
-				<texture border="0,45,0,45">views/list-focus.png</texture>
+				<texture border="0,30,0,30">views/list-focus.png</texture>
 				<include>focus_ListScroll</include>
 				<visible>!ControlGroup(6000).HasFocus</visible>
 			</control>
@@ -192,7 +192,7 @@
 				<posy>-42</posy>
 				<width>975</width>
 				<height>150</height>
-				<texture border="0,45,0,45">views/list-focus.png</texture>
+				<texture border="0,30,0,30">views/list-focus.png</texture>
 				<include>focus_ListScrollAlt</include>
 				<visible>!ControlGroup(6000).HasFocus</visible>
 			</control>
@@ -253,7 +253,7 @@
 				<posy>-45</posy>
 				<width>975</width>
 				<height>192</height>
-				<texture border="0,45,0,45">views/list-focus.png</texture>
+				<texture border="0,30,0,30">views/list-focus.png</texture>
 				<include>focus_ListScroll</include>
 				<visible>!ControlGroup(6000).HasFocus</visible>
 			</control>
@@ -334,7 +334,7 @@
 				<posy>-39</posy>
 				<width>975</width>
 				<height>183</height>
-				<texture border="0,45,0,45">views/list-focus.png</texture>
+				<texture border="0,30,0,30">views/list-focus.png</texture>
 				<include>focus_ListScroll</include>
 				<visible>!ControlGroup(6000).HasFocus</visible>
 			</control>
@@ -416,7 +416,7 @@
 				<posy>-45</posy>
 				<width>975</width>
 				<height>192</height>
-				<texture border="0,45,0,45">views/list-focus.png</texture>
+				<texture border="0,30,0,30">views/list-focus.png</texture>
 				<visible>!ControlGroup(6000).HasFocus</visible>
 			</control>
 			<control type="label">
@@ -480,7 +480,7 @@
 				<posy>-42</posy>
 				<width>975</width>
 				<height>150</height>
-				<texture border="0,45,0,45">views/list-focus.png</texture>
+				<texture border="0,30,0,30">views/list-focus.png</texture>
 				<include>focus_ListScrollAlt</include>
 				<visible>!ControlGroup(6000).HasFocus</visible>
 			</control>
@@ -533,7 +533,7 @@
 				<posy>-45</posy>
 				<width>975</width>
 				<height>192</height>
-				<texture border="0,45,0,45">views/list-focus.png</texture>
+				<texture border="0,30,0,30">views/list-focus.png</texture>
 				<include>focus_ListScroll</include>
 				<visible>!ControlGroup(6000).HasFocus</visible>
 			</control>
@@ -574,7 +574,7 @@
 				<posy>356</posy>
 				<width>1808</width>
 				<height>219</height>
-				<texture border="15">views/list-focus-bigAlt.png</texture>
+				<texture border="10">views/list-focus-bigAlt.png</texture>
 				<animation effect="slide" start="0,0" end="0,18" time="0" condition="Skin.HasSetting(numitems.enable)">Conditional</animation>
 				<visible>![Window.IsActive(movieinformation)] + [Container.Content(episodes) | Container.Content(tvshows) | Container.Content(movies)] + Control.IsVisible(51)</visible>
 			</control>
@@ -583,7 +583,7 @@
 				<posy>356</posy>
 				<width>1808</width>
 				<height>219</height>
-				<texture border="15">views/list-focus-bigAlt.png</texture>
+				<texture border="10">views/list-focus-bigAlt.png</texture>
 				<animation effect="slide" start="0,0" end="0,18" time="0" condition="Skin.HasSetting(numitems.enable)">Conditional</animation>
 				<visible>Window.IsVisible(musiclibrary) + Control.IsVisible(51)</visible>
 			</control>

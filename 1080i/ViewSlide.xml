@@ -128,9 +128,9 @@
 					<width>342</width>
 					<height>474</height>
 					<texture background="true">$VAR[thumb_Portrait.Condition]</texture>
-					<bordertexture border="60">frames/frame_Square.png</bordertexture>
+					<bordertexture border="40">frames/frame_Square.png</bordertexture>
 					<aspectratio align="center">stretch</aspectratio>
-					<bordersize>33</bordersize>
+					<bordersize>22</bordersize>
 				</control>
 				<control type="group">
 					<posx>261</posx>
@@ -151,9 +151,9 @@
 					<width>342</width>
 					<height>474</height>
 					<texture background="true">$VAR[thumb_Portrait.Condition]</texture>
-					<bordertexture border="60">frames/frame_Square.png</bordertexture>
+					<bordertexture border="40">frames/frame_Square.png</bordertexture>
 					<aspectratio align="center">stretch</aspectratio>
-					<bordersize>33</bordersize>
+					<bordersize>22</bordersize>
 				</control>
 				<control type="group">
 					<posx>261</posx>
@@ -202,7 +202,7 @@
 					<texture background="true">$VAR[thumb_Landscape.Condition]</texture>
 					<aspectratio align="center">scale</aspectratio>
 					<bordertexture border="46">frames/frame_Square.png</bordertexture>
-					<bordersize>33</bordersize>
+					<bordersize>22</bordersize>
 				</control>
 				<control type="image">
 					<posx>48</posx>
@@ -234,7 +234,7 @@
 					<texture background="true">$VAR[thumb_Landscape.Condition]</texture>
 					<bordertexture border="40">frames/frame_Square.png</bordertexture>
 					<aspectratio align="center">scale</aspectratio>
-					<bordersize>33</bordersize>
+					<bordersize>22</bordersize>
 				</control>
 				<control type="image">
 					<posx>48</posx>
@@ -265,7 +265,7 @@
 				<height>408</height>
 				<texture fallback="thumbs/artist_landscape.png" background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
 				<bordertexture border="46">frames/frame_Square.png</bordertexture>
-				<bordersize>33</bordersize>
+				<bordersize>22</bordersize>
 				<aspectratio align="center">stretch</aspectratio>
 				<visible>Container.Content(artists)</visible>
 			</control>
@@ -276,7 +276,7 @@
 				<height>408</height>
 				<texture fallback="thumbs/artist_landscape.png" background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
 				<bordertexture border="40">frames/frame_Square.png</bordertexture>
-				<bordersize>33</bordersize>
+				<bordersize>22</bordersize>
 				<aspectratio align="center">stretch</aspectratio>
 				<visible>Container.Content(artists)</visible>
 				<include>focus_SlideWide</include>
@@ -308,8 +308,8 @@
 					<width>450</width>
 					<height>450</height>
 					<texture background="true">$VAR[thumb_Square.Condition]</texture>
-					<bordertexture border="60">frames/frame_Square.png</bordertexture>
-					<bordersize>33</bordersize>
+					<bordertexture border="40">frames/frame_Square.png</bordertexture>
+					<bordersize>22</bordersize>
 					<aspectratio>scale</aspectratio>
 				</control>
 			</itemlayout>
@@ -318,8 +318,8 @@
 					<width>450</width>
 					<height>450</height>
 					<texture background="true">$VAR[thumb_Square.Condition]</texture>
-					<bordertexture border="60">frames/frame_Square.png</bordertexture>
-					<bordersize>33</bordersize>
+					<bordertexture border="40">frames/frame_Square.png</bordertexture>
+					<bordersize>22</bordersize>
 					<aspectratio>scale</aspectratio>
 					<include>focus_SlideMusic</include>
 				</control>

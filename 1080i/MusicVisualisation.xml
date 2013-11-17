@@ -20,7 +20,7 @@
 			<control type="image" id="1">
 				<width>1905</width>
 				<height>140</height>
-				<texture border="24">black.png</texture>
+				<texture border="16">black.png</texture>
 			</control>
 			<control type="group">
 				<posx>15</posx>

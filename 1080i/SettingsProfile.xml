@@ -74,7 +74,7 @@
 					<control type="image">
 						<width>1275</width>
 						<height>68</height>
-						<texture border="24,24,24,24">settings/list-focus.png</texture>
+						<texture border="16,16,16,16">settings/list-focus.png</texture>
 					</control>
 					<control type="label">
 						<posy>4</posy>

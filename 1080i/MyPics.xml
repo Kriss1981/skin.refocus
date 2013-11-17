@@ -33,7 +33,7 @@
 					<width>870</width>
 					<height>975</height>
 					<texture background="true">$INFO[ListItem.Thumb]</texture>
-					<bordersize>33</bordersize>
+					<bordersize>22</bordersize>
 					<aligny>top</aligny>
 					<aspectratio align="center">keep</aspectratio>
 					<fadetime>fadetime_Thumb</fadetime>
@@ -44,7 +44,7 @@
 					<height>975</height>
 					<texture fallback="thumbs/picture_landscape.jpg" background="true">$INFO[ListItem.Thumb]</texture>
 					<bordertexture border="46" width="400" height="315">frames/frame_Square.png</bordertexture>
-					<bordersize>33</bordersize>
+					<bordersize>22</bordersize>
 					<aligny>top</aligny>
 					<aspectratio align="center">keep</aspectratio>
 					<fadetime>fadetime_Thumb</fadetime>

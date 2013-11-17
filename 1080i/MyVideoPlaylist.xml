@@ -27,7 +27,7 @@
 			<control type="image">
 				<width>834</width>
 				<height>498</height>
-				<texture border="46">frames/frame_Square.png</texture>
+				<texture border="31">frames/frame_Square.png</texture>
 				<visible>Player.HasVideo + !Control.HasFocus(70)</visible>
 			</control>
 			<control type="image">
@@ -35,7 +35,7 @@
 				<posy>22</posy>
 				<width>789</width>
 				<height>454</height>
-				<texture border="15">views/list-focus-bigAlt.png</texture>
+				<texture border="10">views/list-focus-bigAlt.png</texture>
 				<visible>Player.HasVideo + Control.HasFocus(70)</visible>
 			</control>
 			<control type="image">

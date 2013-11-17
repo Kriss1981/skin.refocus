@@ -54,7 +54,7 @@
 					<control type="image">
 						<width>994</width>
 						<height>66</height>
-						<texture border="4">dialogs/list-nofocus.png</texture>
+						<texture border="3">dialogs/list-nofocus.png</texture>
 					</control>
 					<control type="label">
 						<posx>162</posx>

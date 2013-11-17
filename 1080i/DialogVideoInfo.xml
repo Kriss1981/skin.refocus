@@ -47,7 +47,7 @@
 					<height>410</height>
 					<texture fallback="thumbs/music_landscape.jpg" background="true">$INFO[ListItem.Thumb]</texture>
 					<bordertexture border="46">frames/frame_Square.png</bordertexture>
-					<bordersize>33</bordersize>
+					<bordersize>22</bordersize>
 					<aspectratio scalediffuse="false" align="center">stretch</aspectratio>
 					<visible>Container.Content(musicvideos)</visible>
 				</control>

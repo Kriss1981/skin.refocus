@@ -108,7 +108,7 @@
 				<control type="image" id="1">
 					<width>525</width>
 					<height>108</height>
-					<texture border="72,50,72,50">osd/playerControlsPanel.png</texture>
+					<texture border="48,33,48,33">osd/playerControlsPanel.png</texture>
 				</control>
 				<include>toggle_PlayerControls</include>
 				<control type="group">
@@ -328,7 +328,7 @@
 				<control type="image" id="1">
 					<width>525</width>
 					<height>108</height>
-					<texture border="72,50,72,50">osd/playerControlsPanel.png</texture>
+					<texture border="48,33,48,33">osd/playerControlsPanel.png</texture>
 				</control>
 				<include>toggle_PlayerControls</include>
 				<control type="group">

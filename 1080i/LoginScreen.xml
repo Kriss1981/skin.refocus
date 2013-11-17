@@ -55,7 +55,7 @@
 					<height>378</height>
 					<texture background="true" diffuse="frames/wideFrameMask.png" fallback="thumbs/user.png">$INFO[ListItem.Icon]</texture>
 					<bordertexture border="33">frames/frame_Square.png</bordertexture>
-					<bordersize>33</bordersize>
+					<bordersize>22</bordersize>
 					<aspectratio scalediffuse="false">scale</aspectratio>
 				</control>
 				<control type="label" id="1">
@@ -73,7 +73,7 @@
 					<height>378</height>
 					<texture background="true" diffuse="frames/wideFrameMask.png" fallback="thumbs/user.png">$INFO[ListItem.Icon]</texture>
 					<bordertexture border="33">frames/frame_Square.png</bordertexture>
-					<bordersize>33</bordersize>
+					<bordersize>22</bordersize>
 					<aspectratio scalediffuse="false">scale</aspectratio>
 					<include>focus_SlideLogin</include>
 				</control>

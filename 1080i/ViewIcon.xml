@@ -288,8 +288,8 @@
 					<width>585</width>
 					<height>357</height>
 					<texture background="true">$VAR[thumb_Landscape.Condition]</texture>
-					<bordertexture border="60">frames/frame_Square.png</bordertexture>
-					<bordersize>33</bordersize>
+					<bordertexture border="40">frames/frame_Square.png</bordertexture>
+					<bordersize>22</bordersize>
 					<aspectratio align="center">scale</aspectratio>
 				</control>
 				<control type="image">
@@ -344,13 +344,13 @@
 					<posy>18</posy>
 					<width>549</width>
 					<height>321</height>
-					<texture border="15">frames/frame_Square-border.png</texture>
+					<texture border="10">frames/frame_Square-border.png</texture>
 				</control>
 				<control type="image">
 					<width>585</width>
 					<height>357</height>
 					<texture background="true">$VAR[thumb_Landscape.Condition]</texture>
-					<bordersize>33</bordersize>
+					<bordersize>22</bordersize>
 					<aspectratio align="center">scale</aspectratio>
 				</control>
 				<control type="image">
@@ -491,7 +491,7 @@
 					<posy>0</posy>
 					<width>306</width>
 					<height>306</height>
-					<texture border="15">views/list-focus-bigAlt.png</texture>
+					<texture border="10">views/list-focus-bigAlt.png</texture>
 				</control>
 				<control type="image">
 					<posx>6</posx>

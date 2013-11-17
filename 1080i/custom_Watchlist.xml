@@ -56,9 +56,9 @@
 							<width>342</width>
 							<height>474</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="60">frames/frame_Square.png</bordertexture>
+							<bordertexture border="40">frames/frame_Square.png</bordertexture>
 							<aspectratio align="center">stretch</aspectratio>
-							<bordersize>33</bordersize>
+							<bordersize>22</bordersize>
 						</control>
 						<control type="group">
 							<posx>33</posx>
@@ -115,9 +115,9 @@
 							<width>342</width>
 							<height>474</height>
 							<texture background="true">$INFO[ListItem.Icon]</texture>
-							<bordertexture border="60">frames/frame_Square.png</bordertexture>
+							<bordertexture border="40">frames/frame_Square.png</bordertexture>
 							<aspectratio align="center">stretch</aspectratio>
-							<bordersize>33</bordersize>
+							<bordersize>22</bordersize>
 						</control>
 						<control type="group">
 							<posx>33</posx>
