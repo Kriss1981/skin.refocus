@@ -997,7 +997,7 @@
 						<posy>10</posy>
 						<width>24</width>
 						<height>24</height>
-						<texture>pvr/status_none.png</texture>
+						<texture>views/pvr/status_none.png</texture>
 						<visible>!StringCompare(ListItem.Comment,$LOCALIZE[305]) + !StringCompare(ListItem.Comment,$LOCALIZE[19162])</visible>
 					</control>
 					<control type="image">
@@ -1005,7 +1005,7 @@
 						<posy>10</posy>
 						<width>24</width>
 						<height>24</height>
-						<texture>pvr/status_recording.png</texture>
+						<texture>views/pvr/status_recording.png</texture>
 						<visible>StringCompare(ListItem.Comment,$LOCALIZE[19162])</visible>
 					</control>
 					<control type="image">
@@ -1013,7 +1013,7 @@
 						<posy>10</posy>
 						<width>24</width>
 						<height>24</height>
-						<texture>pvr/status_enabled.png</texture>
+						<texture>views/pvr/status_enabled.png</texture>
 						<visible>StringCompare(ListItem.Comment,$LOCALIZE[305])</visible>
 					</control>
 					<control type="label" id="1">
@@ -1049,7 +1049,7 @@
 						<posy>10</posy>
 						<width>24</width>
 						<height>24</height>
-						<texture>pvr/status_none.png</texture>
+						<texture>views/pvr/status_none.png</texture>
 						<colordiffuse>column3</colordiffuse>
 						<visible>!StringCompare(ListItem.Comment,$LOCALIZE[305]) + !StringCompare(ListItem.Comment,$LOCALIZE[19162])</visible>
 					</control>
@@ -1058,7 +1058,7 @@
 						<posy>10</posy>
 						<width>24</width>
 						<height>24</height>
-						<texture>pvr/status_recording.png</texture>
+						<texture>views/pvr/status_recording.png</texture>
 						<colordiffuse>column3</colordiffuse>
 						<visible>StringCompare(ListItem.Comment,$LOCALIZE[19162])</visible>
 					</control>
@@ -1067,7 +1067,7 @@
 						<posy>10</posy>
 						<width>24</width>
 						<height>24</height>
-						<texture>pvr/status_enabled.png</texture>
+						<texture>views/pvr/status_enabled.png</texture>
 						<colordiffuse>column3</colordiffuse>
 						<visible>StringCompare(ListItem.Comment,$LOCALIZE[305])</visible>
 					</control>

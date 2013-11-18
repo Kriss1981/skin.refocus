@@ -721,13 +721,13 @@
 			<control type="image" id="1">
 				<width>1920</width>
 				<height>360</height>
-				<texture border="24">osd/osdOverlay.png</texture>
+				<texture border="24">views/osd/osdOverlay.png</texture>
 				<visible>Player.HasVideo + ![VideoPlayer.Content(musicvideos) | VideoPlayer.Content(files)]</visible>
 			</control>
 			<control type="image" id="1">
 				<width>1920</width>
 				<height>297</height>
-				<texture border="24">osd/osdOverlay.png</texture>
+				<texture border="24">views/osd/osdOverlay.png</texture>
 				<visible>Player.HasAudio | VideoPlayer.Content(musicvideos) | VideoPlayer.Content(files)</visible>
 			</control>
 			<control type="image" id="1">

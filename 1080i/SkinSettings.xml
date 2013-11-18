@@ -480,7 +480,7 @@
 			<posx>466</posx>
 			<height>1620</height>
 			<width>44</width>
-			<texture>settings/separator.png</texture>
+			<texture>views/settings/separator.png</texture>
 			<aspectratio align="right">stretch</aspectratio>
 			<include>transition_Container</include>
 		</control>

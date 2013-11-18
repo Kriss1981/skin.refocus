@@ -378,9 +378,9 @@
 	</variable>
 	<!-- PVR -->
 	<variable name="PVR_Status.Condition">
-		<!--<value condition="![ListItem.HasTimer + ListItem.IsRecording]">pvr/status_none.png</value>-->
-		<value condition="ListItem.HasTimer + !ListItem.IsRecording">pvr/status_timer.png</value>
-		<value condition="ListItem.IsRecording">pvr/status_recording.png</value>
-		<value>pvr/status_none.png</value>
+		<!--<value condition="![ListItem.HasTimer + ListItem.IsRecording]">views/pvr/status_none.png</value>-->
+		<value condition="ListItem.HasTimer + !ListItem.IsRecording">views/pvr/status_timer.png</value>
+		<value condition="ListItem.IsRecording">views/pvr/status_recording.png</value>
+		<value>views/pvr/status_none.png</value>
 	</variable>
 </includes>

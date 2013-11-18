@@ -15,7 +15,7 @@
 			<control type="image" id="1">
 				<width>screen_Width</width>
 				<height>75</height>
-				<texture flipy="false" border="4">osd/seekbar.png</texture>
+				<texture flipy="false" border="4">views/osd/seekbar.png</texture>
 			</control>
 			<control type="group">
 				<posx>382</posx>

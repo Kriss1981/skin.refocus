@@ -344,7 +344,7 @@
 			<control type="image">
 				<width>1920</width>
 				<height>368</height>
-				<texture border="0,0,0,15">osd/fullscreenInfo.png</texture>
+				<texture border="0,0,0,15">views/osd/fullscreenInfo.png</texture>
 			</control>
 			<control type="group">
 				<posx>30</posx>

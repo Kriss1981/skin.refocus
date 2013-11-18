@@ -78,17 +78,17 @@
 						<posx>938</posx>
 						<posy>16</posy>
 						<control type="image">
-							<texture>pvr/status_none.png</texture>
+							<texture>views/pvr/status_none.png</texture>
 							<visible>![ListItem.HasTimer + ListItem.IsRecording]</visible>
 							<include>dialog_PVRstatus</include>
 						</control>
 						<control type="image">
-							<texture>pvr/status_timer.png</texture>
+							<texture>views/pvr/status_timer.png</texture>
 							<visible>ListItem.HasTimer</visible>
 							<include>dialog_PVRstatus</include>
 						</control>
 						<control type="image">
-							<texture>pvr/status_recording.png</texture>
+							<texture>views/pvr/status_recording.png</texture>
 							<visible>ListItem.IsRecording</visible>
 							<include>dialog_PVRstatus</include>
 						</control>
@@ -122,17 +122,17 @@
 						<posx>938</posx>
 						<posy>16</posy>
 						<control type="image">
-							<texture>pvr/status_none.png</texture>
+							<texture>views/pvr/status_none.png</texture>
 							<visible>![ListItem.HasTimer + ListItem.IsRecording]</visible>
 							<include>dialog_PVRstatus-focus</include>
 						</control>
 						<control type="image">
-							<texture>pvr/status_timer.png</texture>
+							<texture>views/pvr/status_timer.png</texture>
 							<visible>ListItem.HasTimer</visible>
 							<include>dialog_PVRstatus-focus</include>
 						</control>
 						<control type="image">
-							<texture>pvr/status_recording.png</texture>
+							<texture>views/pvr/status_recording.png</texture>
 							<visible>ListItem.IsRecording</visible>
 							<include>dialog_PVRstatus-focus</include>
 						</control>
