@@ -14,33 +14,35 @@
 			<posy>8</posy>
 			<control type="image" id="1">
 				<width>1905</width>
-				<height>170</height>
+				<height>270</height>
 				<texture border="4">views/column_Single.png</texture>
 				<colordiffuse>Color5</colordiffuse>
 			</control>
 			<control type="group" id="1">
-				<posx>15</posx>
+				<posx>30</posx>
 				<!--line 1-->
 				<control type="label" id="10">
-					<posy>8</posy>
-					<width>1890</width>
+					<posy>10</posy>
+					<width>1660</width>
+					<height>60</height>
 					<label>-</label>
 					<textcolor>Color1</textcolor>
 					<font>regular.SmallCaps</font>
 				</control>
 				<!--line 2-->
 				<control type="label" id="11">
-					<posy>46</posy>
-					<width>1890</width>
+					<posy>70</posy>
+					<width>1660</width>
+					<height>60</height>
 					<label>-</label>
 					<font>regular.SmallCaps</font>
 					<textcolor>Color1</textcolor>
 				</control>
 				<!--line 3-->
 				<control type="label" id="12">
-					<posy>72</posy>
-					<width>1890</width>
-					<height>90</height>
+					<posy>130</posy>
+					<width>1660</width>
+					<height>60</height>
 					<label>-</label>
 					<textcolor>Color1</textcolor>
 					<font>regular.SmallCaps</font>
@@ -50,7 +52,7 @@
 		<!--pvr stream info-->
 		<control type="group" id="1">
 			<posx>8</posx>
-			<posy>192</posy>
+			<posy>292</posy>
 			<visible>Player.ShowCodec + VideoPlayer.Content(LiveTV) + System.GetBool(pvrplayback.signalquality)</visible>
 			<control type="image" id="1">
 				<width>1905</width>
