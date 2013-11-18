@@ -61,34 +61,34 @@
 							<bordersize>22</bordersize>
 						</control>
 						<control type="group">
-							<posx>33</posx>
-							<posy>33</posy>
+							<posx>22</posx>
+							<posy>22</posy>
 							<visible>![IsEmpty(ListItem.Property(Latest1) | IsEmpty(ListItem.Property(Latest2) | IsEmpty(ListItem.Property(Latest3) | IsEmpty(ListItem.Property(Latest4)]</visible>
 							<control type="image">
-								<width>140</width>
-								<height>206</height>
+								<width>150</width>
+								<height>216</height>
 								<texture background="true">$INFO[ListItem.Property(Latest1)]</texture>
 								<aspectratio align="center">stretch</aspectratio>
 							</control>
 							<control type="image">
-								<posy>206</posy>
-								<width>140</width>
-								<height>206</height>
+								<posy>216</posy>
+								<width>150</width>
+								<height>216</height>
 								<texture background="true">$INFO[ListItem.Property(Latest3)]</texture>
 								<aspectratio align="center">stretch</aspectratio>
 							</control>
 							<control type="image">
-								<posx>140</posx>
-								<width>140</width>
-								<height>206</height>
+								<posx>150</posx>
+								<width>150</width>
+								<height>216</height>
 								<texture background="true">$INFO[ListItem.Property(Latest2)]</texture>
 								<aspectratio align="center">stretch</aspectratio>
 							</control>
 							<control type="image">
-								<posx>140</posx>
-								<posy>206</posy>
-								<width>140</width>
-								<height>206</height>
+								<posx>150</posx>
+								<posy>216</posy>
+								<width>150</width>
+								<height>216</height>
 								<texture background="true">$INFO[ListItem.Property(Latest4)]</texture>
 								<aspectratio align="center">stretch</aspectratio>
 							</control>
@@ -120,34 +120,34 @@
 							<bordersize>22</bordersize>
 						</control>
 						<control type="group">
-							<posx>33</posx>
-							<posy>33</posy>
+							<posx>22</posx>
+							<posy>22</posy>
 							<visible>![IsEmpty(ListItem.Property(Latest1) | IsEmpty(ListItem.Property(Latest2) | IsEmpty(ListItem.Property(Latest3) | IsEmpty(ListItem.Property(Latest4)]</visible>
 							<control type="image">
-								<width>140</width>
-								<height>206</height>
+								<width>150</width>
+								<height>216</height>
 								<texture background="true">$INFO[ListItem.Property(Latest1)]</texture>
 								<aspectratio align="center">stretch</aspectratio>
 							</control>
 							<control type="image">
-								<posy>206</posy>
-								<width>140</width>
-								<height>206</height>
+								<posy>216</posy>
+								<width>150</width>
+								<height>216</height>
 								<texture background="true">$INFO[ListItem.Property(Latest3)]</texture>
 								<aspectratio align="center">stretch</aspectratio>
 							</control>
 							<control type="image">
-								<posx>140</posx>
-								<width>140</width>
-								<height>206</height>
+								<posx>150</posx>
+								<width>150</width>
+								<height>216</height>
 								<texture background="true">$INFO[ListItem.Property(Latest2)]</texture>
 								<aspectratio align="center">stretch</aspectratio>
 							</control>
 							<control type="image">
-								<posx>140</posx>
-								<posy>206</posy>
-								<width>140</width>
-								<height>206</height>
+								<posx>150</posx>
+								<posy>216</posy>
+								<width>150</width>
+								<height>216</height>
 								<texture background="true">$INFO[ListItem.Property(Latest4)]</texture>
 								<aspectratio align="center">stretch</aspectratio>
 							</control>
