@@ -69,8 +69,7 @@
 		<font>
 			<name>dialog.Regular</name>
 			<filename>LiberationSans-Regular.ttf</filename>
-			<size>30</size>
-			<!--<style>lowercase</style>-->
+			<size>25</size>
 		</font>
 		<font>
 			<name>dialog.SmallCaps</name>
@@ -127,7 +126,7 @@
 		<font>
 			<name>regular.SmallCaps</name>
 			<filename>LiberationSans-Regular.ttf</filename>
-			<size>27</size>
+			<size>25</size>
 			<style>uppercase</style>
 			<aspect>0.92</aspect>
 		</font>
