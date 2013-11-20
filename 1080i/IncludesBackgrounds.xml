@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<include name="global_Background">
 		<control type="image">
@@ -24,7 +24,7 @@
 				<aspectratio>stretch</aspectratio>
 				<include>screen_Dimensions</include>
 				<texture>black.png</texture>
-				<visible></visible>
+				<visible/>
 			</control>
 			<control type="videowindow">
 				<include>screen_Dimensions</include>
@@ -35,7 +35,7 @@
 		<control type="image">
 			<aspectratio>stretch</aspectratio>
 			<include>screen_Dimensions</include>
-			<texture background="true">backgrounds/background.png</texture>
+			<texture background="true">backgrounds/background.jpg</texture>
 			<visible>[![Window.IsActive(2) + Control.IsVisible(531)] + !Window.IsActive(2006)] + !Window.IsActive(weather)</visible>
 			<include>transition_BG</include>
 		</control>

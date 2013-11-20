@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <window id="29">
 	<defaultcontrol>52</defaultcontrol>
 	<coordinates>
@@ -9,7 +9,7 @@
 	<controls>
 		<control type="image">
 			<include>screen_Dimensions</include>
-			<texture background="true">backgrounds/background.png</texture>
+			<texture background="true">backgrounds/background.jpg</texture>
 			<aspectratio>scale</aspectratio>
 			<include>transition_BG</include>
 		</control>

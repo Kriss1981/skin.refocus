@@ -1,36 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include file="Defaults.xml" />
+	<include file="Defaults.xml"/>
 	
-	<include file="HomeMenu.xml" />
-	<include file="HomeSubMenu.xml" />
-	<include file="MenuAddons.xml" />
-	<include file="MenuFiles.xml" />
-	<include file="MenuInfo.xml" />
-	<include file="MenuLibrary.xml" />
-	<include file="MenuPlaylist.xml" />
-	<include file="MenuWeather.xml" />
-	<include file="MenuTV.xml" />
+	<include file="HomeMenu.xml"/>
+	<include file="HomeSubMenu.xml"/>
+	<include file="MenuAddons.xml"/>
+	<include file="MenuFiles.xml"/>
+	<include file="MenuInfo.xml"/>
+	<include file="MenuLibrary.xml"/>
+	<include file="MenuPlaylist.xml"/>
+	<include file="MenuWeather.xml"/>
+	<include file="MenuTV.xml"/>
 	
-	<include file="IncludesAddons.xml" />
-	<include file="IncludesBackgrounds.xml" />
-	<include file="IncludesFlags.xml" />
-	<include file="IncludesHome.xml" />
-	<include file="IncludesAnimations.xml" />
-	<include file="IncludesDialogs.xml" />
-	<include file="IncludesPageControl.xml" />
-	<include file="IncludesPlayerControl.xml" />
-	<include file="IncludesWeather.xml" />
-	<include file="Includes_Views.xml" />
+	<include file="IncludesAddons.xml"/>
+	<include file="IncludesBackgrounds.xml"/>
+	<include file="IncludesFlags.xml"/>
+	<include file="IncludesHome.xml"/>
+	<include file="IncludesAnimations.xml"/>
+	<include file="IncludesDialogs.xml"/>
+	<include file="IncludesPageControl.xml"/>
+	<include file="IncludesPlayerControl.xml"/>
+	<include file="IncludesWeather.xml"/>
+	<include file="Includes_Views.xml"/>
 	
-	<include file="Variables.xml" />
+	<include file="Variables.xml"/>
 	
-	<include file="ViewIcon.xml" />
-	<include file="ViewList.xml" />
-	<include file="ViewSlide.xml" />
-	<include file="ViewBanner.xml" />
-	<include file="ViewGallery.xml" />
-	<include file="ViewsPVR.xml" />
+	<include file="ViewIcon.xml"/>
+	<include file="ViewList.xml"/>
+	<include file="ViewSlide.xml"/>
+	<include file="ViewBanner.xml"/>
+	<include file="ViewGallery.xml"/>
+	<include file="ViewsPVR.xml"/>
 	
 	<!-- CONSTANTS -->
 	<constant name="screen_Width">1280</constant>
@@ -878,7 +878,7 @@
 							<textcolor>Color3</textcolor>
 						</control>
 						<control type="label" id="1">
-							<posx>1635</posx>
+							<right>1635</right>
 							<width>1500</width>
 							<label>$INFO[Player.Duration]</label>
 							<align>right</align>

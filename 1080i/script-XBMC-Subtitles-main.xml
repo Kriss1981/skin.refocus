@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<defaultcontrol always="true">120</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
@@ -186,7 +186,7 @@
 						<posy>4</posy>
 						<width>48</width>
 						<height>48</height>
-						<texture>flags/countries/$INFO[ListItem.Thumb]/flag.png</texture>
+						<texture>flags/countries/$INFO[ListItem.Thumb].png</texture>
 					</control>
 					<control type="label">
 						<posx>72</posx>
@@ -225,7 +225,7 @@
 							<posy>4</posy>
 							<width>48</width>
 							<height>48</height>
-							<texture>flags/countries/$INFO[ListItem.Thumb]/flag.png</texture>
+							<texture>flags/countries/$INFO[ListItem.Thumb].png</texture>
 						</control>
 						<control type="label">
 							<posx>72</posx>
@@ -263,7 +263,7 @@
 							<posy>4</posy>
 							<width>48</width>
 							<height>48</height>
-							<texture>flags/countries/$INFO[ListItem.Thumb]/flag.png</texture>
+							<texture>flags/countries/$INFO[ListItem.Thumb].png</texture>
 						</control>
 						<control type="label">
 							<posx>72</posx>

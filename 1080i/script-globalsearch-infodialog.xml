@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <window type="dialog">
 	<defaultcontrol>-</defaultcontrol>
 	<include>dialogOpen</include>
@@ -14,8 +14,8 @@
 			<width>1</width>
 			<height>1</height>
 			<visible>false</visible>
-			<itemlayout width="1" height="1" />
-			<focusedlayout width="1" height="1" />
+			<itemlayout width="1" height="1"/>
+			<focusedlayout width="1" height="1"/>
 		</control>
 		<control type="group">
 			<control type="image">
@@ -1142,22 +1142,22 @@
 				<posx>146</posx>
 				<posy>772</posy>
 				<animation type="Conditional" condition="Control.IsVisible(120)">
-					<effect type="slide" start="0" end="141" time="0" />
+					<effect type="slide" start="0" end="141" time="0"/>
 				</animation>
 				<animation type="Conditional" condition="Control.IsVisible(130)">
-					<effect type="slide" start="15" end="141" time="0" />
+					<effect type="slide" start="15" end="141" time="0"/>
 				</animation>
 				<animation type="Conditional" condition="Control.IsVisible(140)">
-					<effect type="slide" start="15" end="141" time="0" />
+					<effect type="slide" start="15" end="141" time="0"/>
 				</animation>
 				<animation type="Conditional" condition="Control.IsVisible(150)">
-					<effect type="slide" start="0" end="141" time="0" />
+					<effect type="slide" start="0" end="141" time="0"/>
 				</animation>
 				<animation type="Conditional" condition="Control.IsVisible(160)">
-					<effect type="slide" start="15" end="141" time="0" />
+					<effect type="slide" start="15" end="141" time="0"/>
 				</animation>
 				<animation type="Conditional" condition="Control.IsVisible(180)">
-					<effect type="slide" start="15" end="141" time="0" />
+					<effect type="slide" start="15" end="141" time="0"/>
 				</animation>
 				<control type="button" id="191">
 					<label>$LOCALIZE[186]</label>

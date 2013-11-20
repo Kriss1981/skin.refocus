@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<include name="homeMenusLayout">
 		<itemlayout width="960" height="78">
@@ -79,15 +79,15 @@
 		<timeperimage>slideshow_Timer</timeperimage>
 		<fadetime>fadetime_Slideshow</fadetime>
 		<animation type="WindowOpen" condition="!Window.Previous(startup)">
-			<effect type="zoom" time="transition_Open" center="auto" start="130" end="100" tween="cubic" easing="out" />
-			<effect type="fade" time="transition_Open" start="0" tween="cubic" easing="out" end="100" />
+			<effect type="zoom" time="transition_Open" center="auto" start="130" end="100" tween="cubic" easing="out"/>
+			<effect type="fade" time="transition_Open" start="0" tween="cubic" easing="out" end="100"/>
 		</animation>
 		<animation type="WindowClose">
-			<effect type="zoom" time="transition_Close" center="auto" start="100" end="130" tween="cubic" easing="in" />
-			<effect type="fade" time="transition_Close" start="100" tween="cubic" easing="in" end="0" />
+			<effect type="zoom" time="transition_Close" center="auto" start="100" end="130" tween="cubic" easing="in"/>
+			<effect type="fade" time="transition_Close" start="100" tween="cubic" easing="in" end="0"/>
 		</animation>
 		<animation type="WindowOpen" condition="Window.Previous(startup)">
-			<effect type="fade" start="0" end="100" time="600" delay="0" />
+			<effect type="fade" start="0" end="100" time="600" delay="0"/>
 		</animation>
 	</include>
 </includes>

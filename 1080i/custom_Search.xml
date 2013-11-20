@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <window type="dialog" id="64">
 	<defaultcontrol always="true">100</defaultcontrol>
 	<animation type="WindowOpen" reversible="false">
-		<effect type="zoom" start="90" end="100" time="200" center="1000,360" tween="Sine" easing="InOut" />
-		<effect type="fade" start="0" end="100" time="200" />
+		<effect type="zoom" start="90" end="100" time="200" center="1000,360" tween="Sine" easing="InOut"/>
+		<effect type="fade" start="0" end="100" time="200"/>
 	</animation>
 	<animation type="WindowClose" reversible="false">
-		<effect type="zoom" start="100" end="90" time="200" center="1000,360" tween="Sine" easing="InOut" />
-		<effect type="fade" start="100" end="0" time="200" />
+		<effect type="zoom" start="100" end="90" time="200" center="1000,360" tween="Sine" easing="InOut"/>
+		<effect type="fade" start="100" end="0" time="200"/>
 	</animation>
 	<coordinates>
 		<system>1</system>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<!-- NEXTAIRED -->
 	<include name="nextaired_Date">
@@ -82,12 +82,12 @@
 	</include>
 	<include name="nextaired_MenuToggle">
 		<animation type="Conditional" condition="ControlGroup(9000).HasFocus">
-			<effect type="zoom" time="250" center="screen_Center" start="100" end="55" />
-			<effect type="fade" time="250" center="screen_Center" start="100" end="20" />
+			<effect type="zoom" time="250" center="screen_Center" start="100" end="55"/>
+			<effect type="fade" time="250" center="screen_Center" start="100" end="20"/>
 		</animation>
 		<animation type="Conditional" condition="!ControlGroup(9000).HasFocus">
-			<effect type="zoom" time="250" center="screen_Center" start="140" end="100" />
-			<effect type="fade" time="250" center="screen_Center" start="20" end="100" />
+			<effect type="zoom" time="250" center="screen_Center" start="140" end="100"/>
+			<effect type="fade" time="250" center="screen_Center" start="20" end="100"/>
 		</animation>
 	</include>
 	<include name="nextaired_Menu">

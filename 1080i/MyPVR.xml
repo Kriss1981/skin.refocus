@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <window id="600">
 	<defaultcontrol>6000</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
@@ -16,7 +16,7 @@
 		<include>windowTitle_PVR</include>
 		<include>PageControls</include>
 		<control type="label">
-			<posx>1920</posx>
+			<right>1920</right>
 			<posy>33r</posy>
 			<width>screen_Width</width>
 			<align>right</align>
