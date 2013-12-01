@@ -47,8 +47,28 @@
 			<include>transition_BG</include>
 		</control>
 	</include>
+
 	<!--slideshows-->
+	<!-- from my specified folder -->
 	<include name="home_Slideshows">
+		<control type="multiimage" id="1">
+			<imagepath>special://home/media/backdrops/</imagepath>
+			<width>1920</width>
+			<height>1080</height>
+			<include>home_Slideshow</include>
+			<visible>!Skin.HasSetting(slideshow.fanart) + ![Player.HasVideo + Skin.HasSetting(backgroundvideo.home)] + !ControlGroup(2100).HasFocus</visible>
+		</control>
+		<control type="multiimage" id="1">
+			<info>Skin.String(slideshow.custom)</info>
+			<visible>Skin.HasSetting(slideshow.fanart) + ![Player.HasVideo + Skin.HasSetting(backgroundvideo.home)]</visible>
+			<include>home_Slideshow</include>
+			<include>screen_Dimensions</include>
+		</control>
+	</include>
+	
+	<!-- random from all farnart -->
+	<!--slideshows-->
+	<!-- include name="home_Slideshows">
 		<control type="fixedlist" id="600">
 			<width>1920</width>
 			<height>1080</height>
@@ -224,5 +244,5 @@
 			<include>home_Slideshow</include>
 			<include>screen_Dimensions</include>
 		</control>
-	</include>
+	</include-->
 </includes>

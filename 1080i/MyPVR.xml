@@ -27,6 +27,7 @@
 		</control>
 		<!-- VIEWS -->
 		<control type="group" id="50">
+			<include>transition_Info</include>
 			<include>view_EPG-now</include>
 			<include>view_EPG-timeline</include>
 			<include>view_EPG-channels</include>

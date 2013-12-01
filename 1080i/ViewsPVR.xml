@@ -2714,17 +2714,15 @@
 	<include name="view_EPG-timeline">
 		<control type="group" id="100">
 			<description>TV Guide Timeline</description>
-			<include>OptionsShutdownAnimation</include>
-			<include>listEndAnimation</include>
-			<animation effect="slide" start="0" end="478" time="400" tween="sine" easing="inout">Conditional</animation>
 			<control type="group">
 			    <visible>Control.IsVisible(10) + !Window.IsActive(favourites)</visible>
-    			<animation type="WindowOpen">
-    			    <effect type="slide" start="200" end="0" tween="cubic" easing="out" time="650"/>
-    			    <effect type="fade" start="0" end="100" tween="sine" easing="inout" time="300"/>
-    			    <effect type="zoom" start="90" end="100" center="1027,438" tween="cubic" easing="out" time="400"/>
-    			</animation>
-    			<include>PVRVisibleHiddenAnimation</include>
+				<!--control type="image">
+					<posx>0</posx>
+					<posy>150</posy>
+					<width>504</width>
+					<height>483</height>
+					<texture border="4">views/list/panel/panel.png</texture>
+				</control-->				
     			<control type="epggrid" id="10">
     				<description>EPG Grid</description>
     				<posx>30</posx>
@@ -2761,7 +2759,7 @@
     				        <posy>0</posy>
     				        <width>500</width>
     				        <height>81</height>
-    				        <texture border="90,3,90,3">--</texture>
+    				        <texture border="90,3,90,3">views/seperatorPVR.png</texture>
     				    </control>
     				    <control type="image">
     				        <posx>0</posx>
@@ -2796,7 +2794,7 @@
     				    </control>
     				    <control type="label">
     				        <description>Label</description>
-    				        <right>480</right>
+    				        <posx>480</posx>
     				        <posy>0</posy>
     				        <width>375</width>
     				        <height>80</height>
@@ -2813,7 +2811,7 @@
     					    <posy>0</posy>
     					    <width>500</width>
     					    <height>81</height>
-    					    <texture border="90,3,90,3">views/list/other/separator.png</texture>
+    				        <texture border="90,3,90,3">views/seperatorPVR.png</texture>
     					</control>
     					<control type="image">
     					    <posx>0</posx>
@@ -2859,7 +2857,7 @@
     					</control>
     					<control type="label">
     					    <description>Label</description>
-    				        <right>480</right>
+    				        <posx>480</posx>
     				        <posy>0</posy>
     				        <width>375</width>
     				        <height>80</height>

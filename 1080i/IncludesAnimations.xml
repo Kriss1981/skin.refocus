@@ -363,7 +363,7 @@
 			<effect type="fade" start="100" end="0" time="150"/>
 		</animation>
 		<animation type="Focus">
-			<effect type="slide" start="0" end="1800" center="auto" time="0"/>
+			<effect type="slide" start="0" end="1200" center="auto" time="0"/>
 			<effect type="zoom" start="80" end="100" center="-800,370" time="250" tween="Cubic"/>
 			<effect type="fade" start="0" end="100" time="250"/>
 		</animation>
