@@ -203,7 +203,7 @@
 		<posy>22</posy>
 		<height>1788</height>
 		<width>44</width>
-		<texture>settings/separator.png</texture>
+		<texture>views/settings/separator.png</texture>
 		<aspectratio align="right">stretch</aspectratio>
 		<include>transition_Container</include>
 	</include>
@@ -337,7 +337,7 @@
 		<textoffsety>0</textoffsety>
 		<textoffsetx>38</textoffsetx>
 		<textcolor>Color1</textcolor>
-		<texturefocus border="20,9,20,9">settings/list-focusRev.png</texturefocus>
+		<texturefocus border="20,9,20,9">views/settings/list-focusRev.png</texturefocus>
 		<texturenofocus>-</texturenofocus>
 	</include>
 	<!--settingsButton-->
@@ -349,7 +349,7 @@
 		<textoffsety>10</textoffsety>
 		<textcolor>Color1</textcolor>
 		<focusedcolor>black</focusedcolor>
-		<texturefocus border="20,9,20,9">settings/list-focus.png</texturefocus>
+		<texturefocus border="20,9,20,9">views/settings/list-focus.png</texturefocus>
 		<texturenofocus>-</texturenofocus>
 		<radioheight>36</radioheight>
 		<radiowidth>116</radiowidth>

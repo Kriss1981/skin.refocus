@@ -8,15 +8,45 @@
 		<include>windowTitle_System</include>
 		<!--button area-->
 		<control type="grouplist" id="3">
-			<posx>22</posx>
-			<posy>188</posy>
+			<posx>30</posx>
+			<posy>150</posy>
 			<height>615</height>
 			<itemgap>0</itemgap>
 			<onleft>5</onleft>
 			<onright>5</onright>
-			<onup>3</onup>
-			<ondown>3</ondown>
+			<onup>20</onup>
+			<ondown>20</ondown>
 			<include>transition_Container</include>
+		</control>
+		<!-- settings level -->
+		<control type="group">
+			<include>transition_Container</include>
+			<control type="button" id="20">
+				<include>button_Category</include>
+				<description>Setting level button</description>
+				<posx>30</posx>
+				<posy>990</posy>
+				<label>10037</label>
+				<pulseonselect>false</pulseonselect>
+				<onleft>5</onleft>
+				<onright>5</onright>
+				<onup>3</onup>
+				<ondown>3</ondown>
+				<onclick>SettingsLevelChange</onclick>
+			</control>		
+			<control type="label">
+				<right>520</right>
+				<top>960</top>
+				<height>25</height>
+				<width>488</width>
+				<label>31142</label> 
+				<font>regular.Info</font> 
+				<textcolor>Color2</textcolor> 
+				<textoffsety>0</textoffsety>
+				<textoffsetx>38</textoffsetx>
+				<align>right</align>
+				<aligny>center</aligny>
+			</control>		
 		</control>
 		<!--control area-->
 		<control type="grouplist" id="5">
@@ -44,10 +74,6 @@
 		<control type="button" id="10">
 			<label>[UPPERCASE]224[/UPPERCASE]</label>
 			<include>button_Category</include>
-		</control>
-		<control type="image">
-			<posx>466</posx>
-			<include>screen_Separator</include>
 		</control>
 	</controls>
 </window>

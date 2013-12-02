@@ -110,12 +110,12 @@
 		<font>
 			<name>regular.Big</name>
 			<filename>LiberationSans-Regular.ttf</filename>
-			<size>33</size>
+			<size>30</size>
 		</font>
 		<font>
 			<name>regular.BigCaps</name>
 			<filename>LiberationSans-Regular.ttf</filename>
-			<size>33</size>
+			<size>30</size>
 			<style>uppercase</style>
 		</font>
 		<font>

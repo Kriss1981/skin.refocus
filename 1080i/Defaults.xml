@@ -35,8 +35,8 @@
 		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="radiobutton">
-		<textureradiofocus>settings/radioOn.png</textureradiofocus>
-		<textureradionofocus>settings/radioOff.png</textureradionofocus>
+		<textureradiofocus>views/settings/radioOn.png</textureradiofocus>
+		<textureradionofocus>views/settings/radioOff.png</textureradionofocus>
 		<focusedcolor>Focused</focusedcolor>
 		<disabledcolor>Disabled</disabledcolor>
 		<selectedcolor>Selected</selectedcolor>
@@ -128,10 +128,10 @@
 		<height>60</height>
 		<texturefocus border="2">list-focus.png</texturefocus>
 		<texturenofocus border="2">list-nofocus.png</texturenofocus>
-		<textureup>settings/scrollUp.png</textureup>
-		<texturedown>settings/scrollDown.png</texturedown>
-		<textureupfocus>settings/scrollUp-focus.png</textureupfocus>
-		<texturedownfocus>settings/scrollDown-focus.png</texturedownfocus>
+		<textureup>views/settings/scrollUp.png</textureup>
+		<texturedown>views/settings/scrollDown.png</texturedown>
+		<textureupfocus>views/settings/scrollUp-focus.png</textureupfocus>
+		<texturedownfocus>views/settings/scrollDown-focus.png</texturedownfocus>
 		<textcolor>Color1</textcolor>
 		<focusedcolor>Focused</focusedcolor>
 		<disabledcolor>Disabled</disabledcolor>
