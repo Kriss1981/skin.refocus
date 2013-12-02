@@ -21,11 +21,11 @@
 		<!-- settings level -->
 		<control type="group">
 			<include>transition_Container</include>
+			<posy>850</posy>
 			<control type="button" id="20">
 				<include>button_Category</include>
 				<description>Setting level button</description>
 				<posx>30</posx>
-				<posy>990</posy>
 				<label>10037</label>
 				<pulseonselect>false</pulseonselect>
 				<onleft>5</onleft>
@@ -36,7 +36,7 @@
 			</control>		
 			<control type="label">
 				<right>520</right>
-				<top>960</top>
+				<top>-30</top>
 				<height>25</height>
 				<width>488</width>
 				<label>31142</label> 
@@ -50,15 +50,36 @@
 		</control>
 		<!--control area-->
 		<control type="grouplist" id="5">
-			<posx>510</posx>
-			<posy>135</posy>
+			<posx>520</posx>
+			<posy>150</posy>
 			<width>1275</width>
-			<height>900</height>
+			<height>760</height>
 			<itemgap>0</itemgap>
 			<onleft>3</onleft>
 			<onright>3</onright>
 			<onup>5</onup>
 			<ondown>5</ondown>
+			<include>transition_Container</include>
+		</control>
+		<control type="group">
+			<control type="image">
+				<posx>565</posx>
+				<posy>845</posy>
+				<width>1275</width>
+				<height>97</height>
+				<texture border="90,3,90,3">views/seperatorPVR.png</texture>
+			</control>
+			<control type="textbox" id="6">
+				<description>description area</description>
+				<posx>565</posx>
+				<posy>960</posy>
+				<width>1275</width>
+				<height>85</height>
+				<font>regular.Small</font>
+				<align>justify</align>
+				<textcolor>Color1</textcolor>
+				<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
+			</control>		
 			<include>transition_Container</include>
 		</control>
 		<!--defaults-->
@@ -74,6 +95,10 @@
 		<control type="button" id="10">
 			<label>[UPPERCASE]224[/UPPERCASE]</label>
 			<include>button_Category</include>
+		</control>
+		<control type="image">
+			<posx>475</posx>
+			<include>screen_Separator</include>
 		</control>
 	</controls>
 </window>

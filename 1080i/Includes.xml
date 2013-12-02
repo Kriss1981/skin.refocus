@@ -346,7 +346,7 @@
 		<height>69</height>
 		<font>regular.Big</font>
 		<textoffsetx>45</textoffsetx>
-		<textoffsety>10</textoffsety>
+		<textoffsety>15</textoffsety>
 		<textcolor>Color1</textcolor>
 		<focusedcolor>black</focusedcolor>
 		<texturefocus border="20,9,20,9">views/settings/list-focus.png</texturefocus>
