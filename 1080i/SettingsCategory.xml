@@ -21,7 +21,7 @@
 		<!-- settings level -->
 		<control type="group">
 			<include>transition_Container</include>
-			<posy>850</posy>
+			<posy>835</posy>
 			<control type="button" id="20">
 				<include>button_Category</include>
 				<description>Setting level button</description>
