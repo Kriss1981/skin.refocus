@@ -9,7 +9,7 @@
 	<controls>
 		<control type="image">
 			<include>screen_Dimensions</include>
-			<texture background="true">backgrounds/background.jpg</texture>
+			<texture background="true">backgrounds/background0.jpg</texture>
 			<aspectratio>scale</aspectratio>
 			<include>transition_BG</include>
 		</control>
