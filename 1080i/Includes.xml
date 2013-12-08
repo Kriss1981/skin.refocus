@@ -33,9 +33,9 @@
 	<include file="ViewsPVR.xml"/>
 	
 	<!-- CONSTANTS -->
-	<constant name="screen_Width">1280</constant>
-	<constant name="screen_Height">720</constant>
-	<constant name="screen_Center">640,360</constant>
+	<constant name="screen_Width">1920</constant>
+	<constant name="screen_Height">1080</constant>
+	<constant name="screen_Center">960,540</constant>
 	<constant name="fadetime_Thumb">300</constant>
 	<constant name="fadetime_Fanart">300</constant>
 	<constant name="fadetime_Slideshow">1200</constant>
@@ -870,18 +870,15 @@
 					</control>
 					<control type="group" id="1">
 						<posy>45</posy>
+						<width>1635</width>
 						<control type="label" id="1">
-							<posx>0</posx>
-							<width>1500</width>
 							<label>$INFO[Player.Time]</label>
 							<font>regular.Info</font>
 							<textcolor>Color3</textcolor>
 						</control>
 						<control type="label" id="1">
-							<right>1635</right>
-							<width>1500</width>
-							<label>$INFO[Player.Duration]</label>
 							<align>right</align>
+							<label>$INFO[Player.Duration]</label>
 							<font>regular.Info</font>
 							<textcolor>Color3</textcolor>
 						</control>
