@@ -3,27 +3,27 @@
 	<!--slide view-->
 	<include name="flags_Slide-media">
 		<control type="grouplist">
-			<posx>333</posx>
-			<posy>990</posy>
+			<posx>350</posx>
+			<posy>1010</posy>
 			<width>1350</width>
 			<height>96</height>
 			<itemgap>15</itemgap>
 			<orientation>horizontal</orientation>
 			<visible>[Control.IsVisible(52) | Control.IsVisible(521) | Control.IsVisible(522)] + IsEmpty(ListItem.Property(ReleaseDate)</visible>
 			<control type="image">
-				<width>192</width>
-				<height>48</height>
-				<info>ListItem.StarRating</info>
-				<aspectratio align="center">keep</aspectratio>
-				<!--<visible>![Window.IsVisible(VideoFiles) | Container.Content(seasons) | Container.Content(musicvideos) | [ListItem.IsFolder + !Container.Content(tvshows)]] + IsEmpty(ListItem.Property(ReleaseDate)) + !SubString(ListItem.Icon,default)</visible>-->
-				<visible>!SubString(ListItem.Icon,default) + [Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(musicvideos)]</visible>
-			</control>
-			<control type="image">
 				<width>144</width>
 				<height>51</height>
 				<aspectratio align="center">keep</aspectratio>
 				<texture>$INFO[Listitem.VideoResolution,flags/video/resolution/,.png]</texture>
 				<visible>!IsEmpty(Listitem.VideoResolution)</visible>
+			</control>
+			<control type="image">
+				<width>144</width>
+				<height>96</height>
+				<texture>$INFO[Listitem.AudioCodec,flags/codec/,.png]</texture>
+				<aspectratio align="center">keep</aspectratio>
+				<visible>[Container.Content(movies) | Container.Content(episodes) | Container.Content(musicvideos)] + !IsEmpty(Listitem.AudioCodec)</visible>
+				<aligny>top</aligny>
 			</control>
 			<control type="image">
 				<width>80</width>
@@ -37,16 +37,10 @@
 	<!--video info dialog-->
 	<include name="flags_Type-info">
 		<control type="grouplist" id="100">
-			<width>1350</width>
+			<width>1250</width>
 			<height>96</height>
 			<itemgap>15</itemgap>
 			<orientation>horizontal</orientation>
-			<control type="image">
-				<width>192</width>
-				<height>96</height>
-				<info>ListItem.StarRating</info>
-				<aspectratio align="center">keep</aspectratio>
-			</control>
 			<control type="image">
 				<width>144</width>
 				<height>96</height>

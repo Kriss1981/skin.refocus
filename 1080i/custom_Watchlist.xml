@@ -37,8 +37,8 @@
 			<include>toggle_Menu</include>
 			<control type="fixedlist" id="52">
 				<viewtype label="Slide">info</viewtype>
-				<posx>-315</posx>
-				<posy>135</posy>
+				<posx>-240</posx>
+				<posy>150</posy>
 				<width>2490</width>
 				<height>638</height>
 				<onup>6000</onup>
@@ -174,8 +174,8 @@
 			<control type="group">
 				<!-- flags -->
 				<control type="group">
-					<posx>90</posx>
-					<posy>688</posy>
+					<posx>110</posx>
+					<posy>750</posy>
 					<control type="image">
 						<width>192</width>
 						<height>96</height>
@@ -192,36 +192,36 @@
 					</control>
 				</control>
 				<control type="group">
-					<posx>330</posx>
-					<posy>693</posy>
+					<posx>350</posx>
+					<posy>750</posy>					
 					<control type="label">
-						<width>1440</width>
+						<width>1500</width>
 						<label>$INFO[Container(52).ListItem(0).Label][COLOR=Color3]$INFO[Container(52).ListItem.Property(Title),: ][/COLOR]</label>
 						<include>info_Title</include>
 					</control>
 					<control type="label">
-						<posy>42</posy>
-						<width>1440</width>
+						<posy>52</posy>
+						<width>1500</width>
 						<label>$INFO[Container(52).ListItem.Property(Node)]$INFO[Container(52).ListItem.Property(Year)]$INFO[Container(52).ListItem(0).Label2, • ]$INFO[Container(52).ListItem.Property(Genre), • ]</label>
 						<include>info_Sub</include>
 						<visible>Skin.String(Watchlist,Movies)</visible>
 					</control>
 					<control type="label">
-						<posy>42</posy>
-						<width>1440</width>
+						<posy>52</posy>
+						<width>1500</width>
 						<label>$INFO[Container(52).ListItem.Property(Node)]$INFO[Container(52).ListItem(0).Label2]</label>
 						<include>info_Sub</include>
 						<visible>Skin.String(Watchlist,Shows)</visible>
 					</control>
 					<control type="textbox">
-						<posy>90</posy>
-						<width>1440</width>
-						<height>165</height>
+						<posy>92</posy>
+						<width>1250</width>
+						<height>145</height>
 						<label>$INFO[Container(52).ListItem.Property(Plot)]</label>
 						<include>description_Small</include>
 					</control>
 					<control type="image">
-						<posy>297</posy>
+						<posy>252</posy>
 						<width>192</width>
 						<height>48</height>
 						<texture>$VAR[custom_Rating.Info]</texture>
