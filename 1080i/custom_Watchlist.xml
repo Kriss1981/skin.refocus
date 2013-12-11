@@ -26,11 +26,6 @@
 			<include>windowTitle</include>
 			<visible>Skin.String(Watchlist,Movies)</visible>
 		</control>
-		<!-- item count -->
-		<control type="label">
-			<label>[B]$INFO[Container(52).NumItems][/B] $LOCALIZE[31116]</label>
-			<include>custom_Itemcount</include>
-		</control>
 		<!--slide -->
 		<control type="group">
 			<include>transition_Container</include>
