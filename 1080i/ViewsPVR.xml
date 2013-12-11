@@ -3032,8 +3032,7 @@
         			    <texture background="true" fallback="pvr/defaultTV.png">$INFO[Container(10).ListItem.Icon]</texture>
 					</control>
 					<control type="group">
-						<posx>250</posx>
-						<posy>0</posy>
+						<posx>350</posx>
 						<control type="label">
 							<width>1500</width>
 							<label>$INFO[ListItem.Title]</label>
@@ -3046,9 +3045,9 @@
 							<include>info_Sub</include>
 						</control>
 						<control type="textbox">
-							<posy>88</posy>
+							<posy>92</posy>
 							<width>1250</width>
-							<height>165</height>
+							<height>145</height>
 							<label>$INFO[ListItem.Plot]</label>
 							<include>description_Small</include>
 						</control>
