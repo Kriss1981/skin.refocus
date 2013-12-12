@@ -2733,7 +2733,7 @@
     				<scrolltime>250</scrolltime>
     				<timeblocks>40</timeblocks>
     				<rulerunit>6</rulerunit>
-					<progresstexture border="0,48,18,14">views/pvr/epg_progress_indicator.png</progresstexture>
+					<progresstexture border="0,60,16,14">views/pvr/epg-progress-indicator.png</progresstexture>
     				<onleft>9001</onleft>
     				<onright>9001</onright>
     				<onup>10</onup>
