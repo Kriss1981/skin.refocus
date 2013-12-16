@@ -15,7 +15,7 @@
 				<height>72</height>
 				<texture>busy/busy.png</texture>
 				<aspectratio>keep</aspectratio>
-				<animation effect="rotate" start="360" end="0" center="24,24" time="1200" loop="true" condition="true">conditional</animation>
+				<animation effect="rotate" start="360" end="0" center="36,36" time="1200" loop="true" condition="true">conditional</animation>
 			</control>
 		</control>
 	</controls>
