@@ -32,6 +32,8 @@
 	<include file="ViewGallery.xml"/>
 	<include file="ViewsPVR.xml"/>
 	
+	<include file="custom_Recommended.xml"/>
+	
 	<!-- CONSTANTS -->
 	<constant name="screen_Width">1920</constant>
 	<constant name="screen_Height">1080</constant>

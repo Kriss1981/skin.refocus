@@ -179,11 +179,11 @@
 		<value>rating/nf-rating5.png</value>
 	</variable>
 	<variable name="custom_Rating.Info">
-		<value condition="!IntegerGreaterThan(Container(52).ListItem.Property(Rating),1)">rating/nf-rating0.png</value>
-		<value condition="!IntegerGreaterThan(Container(52).ListItem.Property(Rating),2)">rating/nf-rating1.png</value>
-		<value condition="!IntegerGreaterThan(Container(52).ListItem.Property(Rating),4)">rating/nf-rating2.png</value>
-		<value condition="!IntegerGreaterThan(Container(52).ListItem.Property(Rating),6)">rating/nf-rating3.png</value>
-		<value condition="!IntegerGreaterThan(Container(52).ListItem.Property(Rating),8)">rating/nf-rating4.png</value>
+		<value condition="!IntegerGreaterThan(Container(52).ListItem.Rating,1)">rating/nf-rating0.png</value>
+		<value condition="!IntegerGreaterThan(Container(52).ListItem.Rating,2)">rating/nf-rating1.png</value>
+		<value condition="!IntegerGreaterThan(Container(52).ListItem.Rating,4)">rating/nf-rating2.png</value>
+		<value condition="!IntegerGreaterThan(Container(52).ListItem.Rating,6)">rating/nf-rating3.png</value>
+		<value condition="!IntegerGreaterThan(Container(52).ListItem.Rating,8)">rating/nf-rating4.png</value>
 		<value>rating/nf-rating5.png</value>
 	</variable>
 	<!-- FLAGS -->

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="63">
+	<defaultcontrol always="true">52</defaultcontrol>
+	<allowoverlay>yes</allowoverlay>
+	<controls>
+		<!-- fanart -->
+		<control type="image">
+			<include>screen_Dimensions</include>
+			<texture background="true">Container(52).ListItem.Property(Fanart_Image)</texture>
+			<include>transition_Fanart</include>
+			<fadetime>fadetime_Fanart</fadetime>
+			<visible>Control.HasFocus(52) + Skin.HasSetting(fanart.global) + ListItem.Art(Fanart) + ![Player.HasVideo + Skin.HasSetting(backgroundvideo.global)]</visible>
+		</control>
+		<!-- includes -->
+		<include>global_Background</include>
+		<include>global_Includes</include>
+		<include>PageControls</include>
+		<!-- window title -->
+		<control type="label">
+			<label>$LOCALIZE[20343] [COLOR=Color2]$LOCALIZE[31086][/COLOR]</label>
+			<include>windowTitle</include>
+			<visible>Skin.String(Watchlist,Shows)</visible>
+		</control>
+		<control type="label">
+			<label>$LOCALIZE[342] [COLOR=Color2]$LOCALIZE[31086][/COLOR]</label>
+			<include>windowTitle</include>
+			<visible>Skin.String(Watchlist,Movies)</visible>
+		</control>
+		<!--slide -->
+		<control type="group">
+			<include>transition_Container</include>
+			<include>toggle_Menu</include>
+			<control type="fixedlist" id="52">
+				<viewtype label="Slide">info</viewtype>
+				<posx>-240</posx>
+				<posy>150</posy>
+				<width>2490</width>
+				<height>638</height>
+				<onup>6000</onup>
+				<onleft>52</onleft>
+				<onright>52</onright>
+				<focusposition>2</focusposition>
+				<scrolltime tween="Cubic" easing="Out">400</scrolltime>
+				<orientation>horizontal</orientation>
+				<include>transition_Container</include>
+				<include>infoDialogHide</include>
+				<include>toggle_Menu</include>
+				<itemlayout height="600" width="308">
+					<control type="group">
+						<control type="image">
+							<width>342</width>
+							<height>474</height>
+							<texture background="true">$INFO[ListItem.Property(poster)]</texture>
+							<bordertexture border="40">frames/frame_Square.png</bordertexture>
+							<aspectratio align="center">stretch</aspectratio>
+							<bordersize>22</bordersize>
+						</control>
+						<control type="group">
+							<posx>272</posx>
+							<posy>404</posy>
+							<control type="image">
+								<width>48</width>
+								<height>48</height>
+								<texture>overlays/OverlayResumable.png</texture>
+								<aspect>keepaspect</aspect>
+								<visible>ListItem.IsResumable</visible>
+							</control>
+						</control>
+					</control>
+				</itemlayout>
+				<focusedlayout height="600" width="308">
+					<control type="group">
+						<include>focus_SlidePoster</include>
+						<control type="image">
+							<width>342</width>
+							<height>474</height>
+							<texture background="true">$INFO[ListItem.Property(poster)]</texture>
+							<bordertexture border="40">frames/frame_Square.png</bordertexture>
+							<aspectratio align="center">stretch</aspectratio>
+							<bordersize>22</bordersize>
+						</control>
+						<control type="group">
+							<posx>272</posx>
+							<posy>404</posy>
+							<control type="image">
+								<width>48</width>
+								<height>48</height>
+								<texture>overlays/OverlayResumable.png</texture>
+								<aspect>keepaspect</aspect>
+								<visible>ListItem.IsResumable</visible>
+							</control>
+						</control>
+					</control>
+				</focusedlayout>
+				<include condition="Skin.String(Watchlist,Shows)">data_provider_TVShows</include>
+				<include condition="Skin.String(Watchlist,Movies)">data_provider_Movies</include>
+			</control>
+			<!-- info -->
+			<control type="group">
+				<!-- flags -->
+				<control type="group">
+					<posx>110</posx>
+					<posy>750</posy>
+					<control type="image">
+						<width>192</width>
+						<height>96</height>
+						<aspectratio align="right">keep</aspectratio>
+						<texture>$INFO[Container(52).Listitem.Studio,flags/studios/,.png]</texture>
+						<visible>Skin.String(Watchlist,Movies)</visible>
+					</control>
+					<control type="image">
+						<width>192</width>
+						<height>96</height>
+						<aspectratio align="right">keep</aspectratio>
+						<texture>$INFO[Container(52).Listitem.Studio,flags/networks/,.png]</texture>
+						<visible>Skin.String(Watchlist,Shows)</visible>
+					</control>
+				</control>
+				<include>info_Slide</include>
+
+				<control type="group">
+					<posx>350</posx>
+					<posy>750</posy>					
+					<control type="label">
+						<width>1500</width>
+						<label>$INFO[Container(52).ListItem.TVshowTitle][COLOR=Color3]$INFO[Container(52).ListItem.Title,: ][/COLOR]</label>
+						<include>info_Title</include>
+						<visible>Skin.String(Watchlist,Shows)</visible>
+					</control>
+					<control type="label">
+						<width>1500</width>
+						<label>[COLOR=Color3]$INFO[Container(52).ListItem.Title][/COLOR]</label>
+						<include>info_Title</include>
+						<visible>Skin.String(Watchlist,Movies)</visible>
+					</control>
+					<control type="label">
+						<posy>52</posy>
+						<width>1500</width>
+						<label>$INFO[Container(52).ListItem.Year]$INFO[Container(52).ListItem.Runtime, • ]$INFO[Container(52).ListItem.Genre, • ]</label>
+						<include>info_Sub</include>
+						<visible>Skin.String(Watchlist,Movies)</visible>
+					</control>
+					<control type="label">
+						<posy>52</posy>
+						<width>1500</width>
+						<label>$INFO[Container(52).ListItem.Season,$LOCALIZE[20373] , - ]$INFO[Container(52).ListItem.Episode,$LOCALIZE[20359] ]$INFO[Container(52).ListItem.Premiered, • ]</label>
+						<include>info_Sub</include>
+						<visible>Skin.String(Watchlist,Shows)</visible>
+					</control>
+					<control type="textbox">
+						<posy>92</posy>
+						<width>1250</width>
+						<height>145</height>
+						<label>$INFO[Container(52).ListItem.Plot]</label>
+						<include>description_Small</include>
+					</control>
+					<control type="image">
+						<posy>252</posy>
+						<width>192</width>
+						<height>48</height>
+						<texture>$VAR[custom_Rating.Info]</texture>
+						<aspectratio align="center">keep</aspectratio>
+					</control>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>
