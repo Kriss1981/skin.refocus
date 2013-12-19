@@ -127,8 +127,8 @@
 					<bordersize>22</bordersize>
 				</control>
 				<control type="group">
-					<posx>261</posx>
-					<posy>393</posy>
+					<posx>272</posx>
+					<posy>404</posy>
 					<control type="image">
 						<include>overlay_UnWatched</include>
 					</control>
@@ -150,8 +150,8 @@
 					<bordersize>22</bordersize>
 				</control>
 				<control type="group">
-					<posx>261</posx>
-					<posy>393</posy>
+					<posx>272</posx>
+					<posy>404</posy>
 					<control type="image">
 						<include>overlay_UnWatched</include>
 					</control>

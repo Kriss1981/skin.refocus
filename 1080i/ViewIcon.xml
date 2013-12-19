@@ -25,14 +25,14 @@
 					<width>266</width>
 					<height>375</height>
 					<texture background="true">$VAR[thumb_Portrait.Condition]</texture>
-					<bordertexture border="9" width="177" height="250">frames/frame_Square-small.png</bordertexture>
-					<bordersize>9</bordersize>
+					<bordertexture border="6" width="266" height="375">frames/frame_Square-small.png</bordertexture>
+					<bordersize>6</bordersize>
 					<aspectratio>stretch</aspectratio>
 					<!--<visible>Container.Content(movies) | SubString(Container.FolderPath,plugin://plugin.video.xbmcflicks) | Container.Content(tvshows) | Container.Content(seasons)</visible>-->
 				</control>
 				<control type="group">
-					<posx>208</posx>
-					<posy>320</posy>
+					<posx>212</posx>
+					<posy>321</posy>
 					<control type="image">
 						<include>overlay_UnWatched</include>
 					</control>
@@ -46,15 +46,15 @@
 					<width>266</width>
 					<height>375</height>
 					<texture background="true">$VAR[thumb_Portrait.Condition]</texture>
-					<bordertexture border="9" width="177" height="250">frames/frame_Square-small.png</bordertexture>
-					<bordersize>9</bordersize>
+					<bordertexture border="6" width="266" height="375">frames/frame_Square-small.png</bordertexture>
+					<bordersize>6</bordersize>
 					<aspectratio>stretch</aspectratio>
 					<include>focus_ThumbPoster</include>
 					<!--<visible>Container.Content(movies) | SubString(Container.FolderPath,plugin://plugin.video.xbmcflicks) | Container.Content(tvshows) | Container.Content(seasons)</visible>-->
 				</control>
 				<control type="group">
-					<posx>208</posx>
-					<posy>320</posy>
+					<posx>212</posx>
+					<posy>321</posy>
 					<include>focus_ThumbPoster</include>
 					<control type="image">
 						<include>overlay_UnWatched</include>
