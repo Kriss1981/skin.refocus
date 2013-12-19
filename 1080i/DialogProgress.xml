@@ -18,23 +18,18 @@
 				<width>723</width>
 				<include>dialog_Windowtitle</include>
 			</control>
-			<!--line 1-->
-			<control type="label" id="2">
+			<control type="textbox" id="9">
+				<description>text</description>
 				<width>723</width>
 				<posy>98</posy>
-				<include>dialog_Line</include>
-			</control>
-			<!--line 2-->
-			<control type="label" id="3">
-				<width>723</width>
-				<posy>135</posy>
-				<include>dialog_Line</include>
-			</control>
-			<!--line 3-->
-			<control type="label" id="4">
-				<width>723</width>
-				<posy>172</posy>
-				<include>dialog_Line</include>
+				<posx>51</posx>
+				<align>center</align>
+				<aligny>center</aligny>
+				<font>dialog.Regular</font>
+				<textcolor>Color4</textcolor>
+				<height>99</height>
+				<label>-</label>
+				<include>autoscroll-line</include>
 			</control>
 			<control type="progress" id="20">
 				<posx>51</posx>

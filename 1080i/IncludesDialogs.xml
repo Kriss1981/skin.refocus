@@ -53,7 +53,7 @@
 		<height>62</height>
 		<font>dialog.Regular</font>
 		<align>center</align>
-		<textoffsety>8</textoffsety>
+		<textoffsety>14</textoffsety>
 		<texturenofocus border="21">dialogs/button.png</texturenofocus>
 		<texturefocus border="30,24,30,24">dialogs/button-focus.png</texturefocus>
 		<textcolor>Color4</textcolor>
@@ -75,7 +75,7 @@
 		<focusedcolor>Color1</focusedcolor>
 		<font>dialog.Regular</font>
 		<textoffsetx>22</textoffsetx>
-		<textoffsety>8</textoffsety>
+		<textoffsety>14</textoffsety>
 		<height>60</height>
 		<pulseonselect>false</pulseonselect>
 		<texturefocus border="4">dialogs/list-focus.png</texturefocus>
@@ -87,7 +87,7 @@
 		<font>dialog.Regular</font>
 		<align>center</align>
 		<aligny>-</aligny>
-		<textoffsety>8</textoffsety>
+		<textoffsety>14</textoffsety>
 		<textcolor>Color4</textcolor>
 		<focusedcolor>Color1</focusedcolor>
 	</include>
